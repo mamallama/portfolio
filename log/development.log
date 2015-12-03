@@ -711,3 +711,797 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-27 00:09:26 -0500
+
+
+Started GET "/" for ::1 at 2015-12-03 16:29:20 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (28.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (48.6ms)
+Completed 200 OK in 359ms (Views: 277.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes" for ::1 at 2015-12-03 16:32:38 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 17335ms (Views: 17272.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b502c8b7ea3fa4d6ec19586e370ed8e39f5f483536dab81a5739001b1b7eb858.css?body=1" for ::1 at 2015-12-03 16:32:58 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 16:38:32 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 2981ms (Views: 2973.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b502c8b7ea3fa4d6ec19586e370ed8e39f5f483536dab81a5739001b1b7eb858.css?body=1" for ::1 at 2015-12-03 16:38:35 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 16:38:35 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 16:38:35 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 16:38:35 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 16:38:35 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 16:38:35 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 16:40:36 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 2098ms (Views: 2093.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e8f88ce90aa99a5139dc34d85f9f4d776cb01468825cbd83ca8d0fc5cea94036.css?body=1" for ::1 at 2015-12-03 16:40:39 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 16:40:39 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 16:40:39 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 16:40:39 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 16:40:39 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 16:40:39 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 16:43:37 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 2113ms (Views: 2106.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8c339f44343a6d323893fdebb4efc444a3028ad47e780f8c359fde593b000973.css?body=1" for ::1 at 2015-12-03 16:43:40 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 16:43:40 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 16:43:40 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 16:43:40 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 16:43:40 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 16:43:40 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 16:45:01 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 907ms (Views: 894.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8c339f44343a6d323893fdebb4efc444a3028ad47e780f8c359fde593b000973.css?body=1" for ::1 at 2015-12-03 16:45:03 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 16:45:03 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 16:45:03 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 16:45:04 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 16:45:04 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 16:45:04 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 16:45:57 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 864ms (Views: 856.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8c339f44343a6d323893fdebb4efc444a3028ad47e780f8c359fde593b000973.css?body=1" for ::1 at 2015-12-03 16:45:58 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 16:45:58 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 16:45:58 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 16:45:58 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 16:45:58 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 16:45:58 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 16:48:10 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2932ms (Views: 2924.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eb84edce9fe09a2087078c96caf3e592690f3cf1d47d20a791ca4d4f0b52cbbd.css?body=1" for ::1 at 2015-12-03 16:48:14 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 16:48:14 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 16:48:14 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 16:48:14 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 16:48:14 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 16:48:14 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 16:51:20 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2529ms (Views: 2519.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 16:51:23 -0500
+
+
+Started GET "/assets/application.self-8702bc7b6246a8cd000d6f41399e02e9f71b584b4e48f6af975f3a1e4f763ff3.css?body=1" for ::1 at 2015-12-03 16:51:23 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 16:51:23 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 16:51:23 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 16:51:23 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 16:51:23 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 16:51:39 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3168ms (Views: 3167.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 16:51:42 -0500
+
+
+Started GET "/assets/application.self-56a4ef820dfd987698bbca7949c2fdcecab92e5990c1a203f2e47068c9250280.css?body=1" for ::1 at 2015-12-03 16:51:42 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 16:51:42 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 16:51:42 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 16:51:42 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 16:51:42 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 16:54:46 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 2060ms (Views: 2054.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dd2e986239f827f10581c77656d6c32985c434e4fe81c57a738f666c00fccad3.css?body=1" for ::1 at 2015-12-03 16:54:48 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 16:54:48 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 16:54:48 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 16:54:48 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 16:54:48 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 16:54:48 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 16:55:25 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1683ms (Views: 1681.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 16:55:27 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 16:55:27 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 16:55:27 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 16:55:27 -0500
+
+
+Started GET "/assets/application.self-4debbd88dfd5b4e52f32083bc2bbcb39ced7c5ff307163c6097c8fe06e0cdebc.css?body=1" for ::1 at 2015-12-03 16:55:27 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 16:55:27 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 16:56:31 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 4113ms (Views: 4107.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ae24bae6af9579475f97d3f32fd08cb95f8a01068194213b3f9aadfbee901bca.css?body=1" for ::1 at 2015-12-03 16:56:36 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 16:56:36 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 16:56:36 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 16:56:36 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 16:56:36 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 16:56:36 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 16:57:19 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 573ms (Views: 567.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 16:57:20 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 16:57:20 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 16:57:20 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 16:57:20 -0500
+
+
+Started GET "/assets/application.self-ae24bae6af9579475f97d3f32fd08cb95f8a01068194213b3f9aadfbee901bca.css?body=1" for ::1 at 2015-12-03 16:57:20 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 16:57:20 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 16:59:58 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 367ms (Views: 362.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ae24bae6af9579475f97d3f32fd08cb95f8a01068194213b3f9aadfbee901bca.css?body=1" for ::1 at 2015-12-03 16:59:59 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 16:59:59 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 16:59:59 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 16:59:59 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 16:59:59 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 16:59:59 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 17:00:56 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 681ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "      }": expected "}", was ""):
+    3: <div id="header">
+    4:   <section>
+    5:     <h1>Renée Quijano</h1>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+    9: 
+  app/assets/stylesheets/application.scss:36
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__2484264828521510969_70161943379060'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (102.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (81.2ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (310.4ms)
+
+
+Started GET "/homes" for ::1 at 2015-12-03 17:01:14 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 1253ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Undefined variable: "$large-screen".):
+    3: <div id="header">
+    4:   <section>
+    5:     <h1>Renée Quijano</h1>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+    9: 
+  app/assets/stylesheets/application.scss:32:in `media'
+  app/assets/stylesheets/application.scss:32
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__2484264828521510969_70161943379060'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.2ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (148.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (70.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (223.1ms)
+
+
+Started GET "/homes" for ::1 at 2015-12-03 17:01:34 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 107ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "...gin: 1em 0 0 0;": expected "}", was "{"):
+    3: <div id="header">
+    4:   <section>
+    5:     <h1>Renée Quijano</h1>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+    9: 
+  app/assets/stylesheets/application.scss:31
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__2484264828521510969_70161943379060'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.2ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (167.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (2.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (229.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (468.1ms)
+
+
+Started GET "/homes" for ::1 at 2015-12-03 17:01:53 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1571ms (Views: 1569.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f73c584ffdd6cc792f32e49ec2cd2cfc9bdde2bd0bd8e20547edb94547e107f7.css?body=1" for ::1 at 2015-12-03 17:01:54 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 17:01:55 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 17:01:55 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 17:01:55 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 17:01:55 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 17:01:55 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 17:01:55 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 17:01:55 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 17:01:55 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 17:01:55 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 17:02:15 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1489ms (Views: 1487.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d7e3f30b3066dec09c983fe1066e0403dc9038c86d00a720aa93046e67fadb8d.css?body=1" for ::1 at 2015-12-03 17:02:17 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 17:02:17 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 17:02:17 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 17:02:17 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 17:02:17 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 17:02:17 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 17:02:18 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 79ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d7e3f30b3066dec09c983fe1066e0403dc9038c86d00a720aa93046e67fadb8d.css?body=1" for ::1 at 2015-12-03 17:02:19 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 17:02:19 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 17:02:19 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 17:02:19 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 17:02:19 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 17:02:19 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 17:07:24 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 427ms (Views: 417.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 17:07:26 -0500
+
+
+Started GET "/assets/application.self-d7e3f30b3066dec09c983fe1066e0403dc9038c86d00a720aa93046e67fadb8d.css?body=1" for ::1 at 2015-12-03 17:07:26 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 17:07:26 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 17:07:26 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 17:07:26 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 17:07:26 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 17:07:50 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2258ms (Views: 2256.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7fa37eef28edb0eaaa6a008165d50c64800057656cbf868c2be2df2167dc76d4.css?body=1" for ::1 at 2015-12-03 17:07:53 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 17:07:53 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 17:07:53 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 17:07:53 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 17:07:53 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 17:07:53 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 17:08:54 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2590ms (Views: 2572.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ceb9d57601f5cf5588afb11b912698c70fd2ac2118e2520d57deccd5deac736b.css?body=1" for ::1 at 2015-12-03 17:08:57 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 17:08:57 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 17:08:57 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 17:08:57 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 17:08:57 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 17:08:57 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 17:09:28 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1801ms (Views: 1799.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 17:09:30 -0500
+
+
+Started GET "/assets/application.self-659a489360411759b941c5ea40d27cac826a6da80058f542956bf1e6e92fbbdd.css?body=1" for ::1 at 2015-12-03 17:09:30 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 17:09:30 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 17:09:30 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 17:09:30 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 17:09:30 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 17:10:25 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2174ms (Views: 2165.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f546ad68af7437aa8014d18a98d39e60bd8eca0bf29fea39f7b861d87ee859eb.css?body=1" for ::1 at 2015-12-03 17:10:28 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 17:10:28 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 17:10:28 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 17:10:28 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 17:10:28 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 17:10:28 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 17:10:50 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1481ms (Views: 1479.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-374339ecc6d33750d7735016543d5f1d41e2e28ace3ae887bde0dcbc59480e94.css?body=1" for ::1 at 2015-12-03 17:10:51 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 17:10:51 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 17:10:52 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 17:10:52 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 17:10:52 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 17:10:52 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 17:11:25 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1682ms (Views: 1681.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0b25d2301484495771f4e783fd93cc6affcf96285ade19d25447481ff05afe83.css?body=1" for ::1 at 2015-12-03 17:11:28 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 17:11:28 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 17:11:28 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 17:11:28 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 17:11:28 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 17:11:28 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 17:13:15 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 2177ms (Views: 2162.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 17:13:18 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 17:13:18 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 17:13:18 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 17:13:18 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 17:13:18 -0500
+
+
+Started GET "/assets/application.self-56a4ef820dfd987698bbca7949c2fdcecab92e5990c1a203f2e47068c9250280.css?body=1" for ::1 at 2015-12-03 17:13:18 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 17:14:33 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4808ms (Views: 4801.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 17:14:38 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 17:14:38 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 17:14:38 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 17:14:38 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 17:14:38 -0500
+
+
+Started GET "/assets/application.self-851a0433646831cb560c9d537acae212e0703260d8b82a6e5495e0a60dc1b1c9.css?body=1" for ::1 at 2015-12-03 17:14:39 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 17:15:21 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5047ms (Views: 5046.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a322be939ebc52ba018a734c24227180b6ad109d0d59e642cd31fbecf5222164.css?body=1" for ::1 at 2015-12-03 17:15:28 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 17:15:28 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 17:15:28 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 17:15:28 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 17:15:28 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 17:15:28 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 17:15:54 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 169ms (Views: 167.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a322be939ebc52ba018a734c24227180b6ad109d0d59e642cd31fbecf5222164.css?body=1" for ::1 at 2015-12-03 17:15:54 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 17:15:54 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 17:15:54 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 17:15:54 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 17:15:54 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 17:15:54 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-03 17:16:05 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 170ms (Views: 169.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-03 17:16:05 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-03 17:16:05 -0500
+
+
+Started GET "/assets/application.self-a322be939ebc52ba018a734c24227180b6ad109d0d59e642cd31fbecf5222164.css?body=1" for ::1 at 2015-12-03 17:16:05 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-03 17:16:05 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-03 17:16:05 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-03 17:16:05 -0500
