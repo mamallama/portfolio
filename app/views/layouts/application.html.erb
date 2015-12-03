@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<div id="header">
+  <section>
+    <h1>Portfolio</h1>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+</section>
+</div>
+<body>
+
+<%= yield %>
+
+</body>
+</html>

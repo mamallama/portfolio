@@ -1,0 +1,713 @@
+
+
+Started GET "/" for ::1 at 2015-11-26 23:20:11 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (81.5ms)
+Completed 200 OK in 327ms (Views: 224.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-26 23:20:58 -0500
+DEPRECATION WARNING: Defining a route where `to` is a controller without an action is deprecated. Please change `to: 'layouts'` to `controller: 'layouts'`. (called from block in <top (required)> at /Users/batman2/Desktop/Portfolio/config/routes.rb:3)
+
+ArgumentError (Missing :action key on routes definition, please check your routes.):
+  config/routes.rb:3:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (184.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (127.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (347.6ms)
+
+
+Started GET "/" for ::1 at 2015-11-26 23:24:26 -0500
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.4) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.4) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (319.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (136.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (575.7ms)
+  [1m[36m (3.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (14.0ms)[0m  select sqlite_version(*)
+  [1m[36m (4.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateHomes (20151127042317)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (18.8ms)[0m  CREATE TABLE "homes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (3.5ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151127042317"]]
+  [1m[35m (14.8ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for ::1 at 2015-11-26 23:25:39 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2015-11-26 23:25:48 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (42.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (218.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (207.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (559.9ms)
+
+
+Started GET "/homes" for ::1 at 2015-11-26 23:25:55 -0500
+Processing by HomesController#index as HTML
+  [1m[35mHome Load (0.2ms)[0m  SELECT "homes".* FROM "homes"
+  Rendered homes/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 650ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (Invalid CSS after "  }": expected "}", was ""):
+    3: <head>
+    4:   <section>
+    5:     <h1>Portfolio</h1>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+    9: </section>
+  app/assets/stylesheets/application.scss:46
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__2107083045240714912_70346561479200'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (19.0ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.0ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (393.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (196.2ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (553.1ms)
+
+
+Started GET "/homes" for ::1 at 2015-11-26 23:26:19 -0500
+Processing by HomesController#index as HTML
+  [1m[36mHome Load (0.1ms)[0m  [1mSELECT "homes".* FROM "homes"[0m
+  Rendered homes/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 7297ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (File to import not found or unreadable: home.
+Load paths:
+  /Users/batman2/Desktop/Portfolio/app/assets/images
+  /Users/batman2/Desktop/Portfolio/app/assets/javascripts
+  /Users/batman2/Desktop/Portfolio/app/assets/stylesheets
+  /Users/batman2/Desktop/Portfolio/vendor/assets/javascripts
+  /Users/batman2/Desktop/Portfolio/vendor/assets/stylesheets
+  /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets
+  /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets
+  /Users/batman2/.rvm/gems/ruby-2.2.1/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/batman2/.rvm/gems/ruby-2.2.1/gems/jquery-rails-4.0.5/vendor/assets/javascripts
+  /Users/batman2/.rvm/gems/ruby-2.2.1/gems/coffee-rails-4.1.0/lib/assets/javascripts):
+    3: <head>
+    4:   <section>
+    5:     <h1>Portfolio</h1>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+    9: </section>
+  app/assets/stylesheets/application.scss:18
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__2107083045240714912_70346561479200'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.0ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (298.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (588.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (972.4ms)
+
+
+Started GET "/homes" for ::1 at 2015-11-26 23:28:33 -0500
+Processing by HomesController#index as HTML
+  [1m[35mHome Load (0.8ms)[0m  SELECT "homes".* FROM "homes"
+  Rendered homes/index.html.erb within layouts/application (9.5ms)
+Completed 500 Internal Server Error in 3251ms (ActiveRecord: 0.8ms)
+
+ActionView::Template::Error (Undefined variable: "$body-line-height".):
+    3: <head>
+    4:   <section>
+    5:     <h1>Portfolio</h1>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+    9: </section>
+  app/assets/stylesheets/application.scss:40
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__2107083045240714912_70346561479200'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (18.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (264.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (111.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (273.4ms)
+
+
+Started GET "/homes" for ::1 at 2015-11-26 23:28:42 -0500
+Processing by HomesController#index as HTML
+  [1m[36mHome Load (0.3ms)[0m  [1mSELECT "homes".* FROM "homes"[0m
+  Rendered homes/index.html.erb within layouts/application (5.2ms)
+Completed 500 Internal Server Error in 1909ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (Undefined variable: "$body-line-height".):
+    3: <head>
+    4:   <section>
+    5:     <h1>Portfolio</h1>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+    9: </section>
+  app/assets/stylesheets/application.scss:40
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__2107083045240714912_70346561479200'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (83.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (60.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (164.0ms)
+
+
+Started GET "/homes" for ::1 at 2015-11-26 23:29:00 -0500
+Processing by HomesController#index as HTML
+  [1m[35mHome Load (0.2ms)[0m  SELECT "homes".* FROM "homes"
+  Rendered homes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 12490ms (Views: 12489.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-6ad48fb5d0581f07ed066b26d6b3a43502f2f054ea40d79f01c8a0da10c6bd69.css?body=1" for ::1 at 2015-11-26 23:29:13 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-26 23:29:13 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-26 23:29:13 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-26 23:29:13 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-26 23:29:13 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-26 23:29:13 -0500
+
+
+Started GET "/homes" for ::1 at 2015-11-26 23:30:49 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 1017ms (Views: 860.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-26 23:30:51 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-26 23:30:51 -0500
+
+
+Started GET "/assets/application.self-6ad48fb5d0581f07ed066b26d6b3a43502f2f054ea40d79f01c8a0da10c6bd69.css?body=1" for ::1 at 2015-11-26 23:30:51 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-26 23:30:51 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-26 23:30:51 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-26 23:30:51 -0500
+
+
+Started GET "/homes" for ::1 at 2015-11-26 23:35:18 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 824ms (Views: 807.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6ad48fb5d0581f07ed066b26d6b3a43502f2f054ea40d79f01c8a0da10c6bd69.css?body=1" for ::1 at 2015-11-26 23:35:21 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-26 23:35:21 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-26 23:35:21 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-26 23:35:21 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-26 23:35:21 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-26 23:35:21 -0500
+
+
+Started GET "/homes" for ::1 at 2015-11-26 23:42:51 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (29.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 9121ms (Views: 9034.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d23283ea51342a7d1b007193d52f6abb8d318f12af7e93033b64fb98ec48cf84.css?body=1" for ::1 at 2015-11-26 23:43:04 -0500
+
+
+Started GET "/homes" for ::1 at 2015-11-26 23:45:10 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7818ms (Views: 7811.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-578e3daee24dc89d05e84aed0b397dc13c0d496b716137e15c32a60fc6b2a5b2.css?body=1" for ::1 at 2015-11-26 23:45:19 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-26 23:45:19 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-26 23:45:20 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-26 23:45:20 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-26 23:45:20 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-26 23:45:20 -0500
+
+
+Started GET "/homes" for ::1 at 2015-11-26 23:52:37 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5088ms (Views: 5074.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5a024c29b19da16357542fea78ff8b2a0e27fd76748be488aff5c5e1705d7826.css?body=1" for ::1 at 2015-11-26 23:52:43 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-26 23:52:43 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-26 23:52:43 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-26 23:52:43 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-26 23:52:43 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-26 23:52:44 -0500
+
+
+Started GET "/homes" for ::1 at 2015-11-26 23:53:52 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4906ms (Views: 4892.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-26 23:53:58 -0500
+
+
+Started GET "/assets/application.self-98371adbb1d92d1276de09eccf3a7a8b28583a7c34bf52c32fb0a27a160574f0.css?body=1" for ::1 at 2015-11-26 23:53:58 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-26 23:53:58 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-26 23:53:58 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-26 23:53:58 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-26 23:53:58 -0500
+
+
+Started GET "/homes" for ::1 at 2015-11-26 23:59:09 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 510ms (Views: 502.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes" for ::1 at 2015-11-26 23:59:29 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes" for ::1 at 2015-11-27 00:01:11 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes" for ::1 at 2015-11-27 00:01:46 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes" for ::1 at 2015-11-27 00:02:16 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 889ms (Views: 887.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-98371adbb1d92d1276de09eccf3a7a8b28583a7c34bf52c32fb0a27a160574f0.css?body=1" for ::1 at 2015-11-27 00:02:17 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 00:02:17 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 00:02:17 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 00:02:17 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 00:02:17 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-27 00:02:17 -0500
+
+
+Started GET "/homes" for ::1 at 2015-11-27 00:03:35 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2691ms (Views: 2690.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 00:03:38 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 00:03:38 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 00:03:38 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 00:03:38 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-27 00:03:38 -0500
+
+
+Started GET "/assets/application.self-191609ccf659584e8ccfd0ec31ef2e2ebbce8b91fc41e502347b6a15b8633d7a.css?body=1" for ::1 at 2015-11-27 00:03:38 -0500
+
+
+Started GET "/homes" for ::1 at 2015-11-27 00:04:04 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 2675ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Undefined mixin 'box-shadow'.):
+    3: <div id="header">
+    4:   <section>
+    5:     <h1>Portfolio</h1>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+    9: </section>
+  app/assets/stylesheets/application.scss:27:in `box-shadow'
+  app/assets/stylesheets/application.scss:27
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__3467672113325616124_70280502217380'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.2ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (164.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (152.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (365.5ms)
+
+
+Started GET "/homes" for ::1 at 2015-11-27 00:06:51 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5352ms (Views: 5350.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-76e359bd43d4527232f0bd930ddf1d323bd0f59edf94f7a6f2105754eabe77ff.css?body=1" for ::1 at 2015-11-27 00:06:57 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 00:06:57 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 00:06:57 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 00:06:57 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-27 00:06:57 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 00:06:57 -0500
+
+
+Started GET "/homes" for ::1 at 2015-11-27 00:07:20 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3342ms (Views: 3341.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-29736068a7d66194b4f3249239aaeb8927605b3ae566b223264c6c117be69cef.css?body=1" for ::1 at 2015-11-27 00:07:24 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 00:07:24 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 00:07:24 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-27 00:07:24 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 00:07:25 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 00:07:25 -0500
+
+
+Started GET "/homes" for ::1 at 2015-11-27 00:08:03 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10821ms (Views: 10819.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e8c5cd972abddd27b724717734fa956940a88dcae32ddc3a8e80b036b84ed555.css?body=1" for ::1 at 2015-11-27 00:08:15 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 00:08:15 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 00:08:15 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 00:08:15 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 00:08:15 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-27 00:08:15 -0500
+
+
+Started GET "/homes" for ::1 at 2015-11-27 00:08:26 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1735ms (Views: 1734.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 00:08:28 -0500
+
+
+Started GET "/assets/application.self-a02ad3c01263a0ae2bccc4bf0b3c35b9f84e6b6d35e72401ca08359dc183c1a7.css?body=1" for ::1 at 2015-11-27 00:08:28 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 00:08:28 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-27 00:08:28 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 00:08:28 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 00:08:28 -0500
+
+
+Started GET "/homes" for ::1 at 2015-11-27 00:08:43 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2993ms (Views: 2992.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-539d8bd756cbae5ba6cdd5f68e842efa961eab1a0f532234cffd7f8842a287a8.css?body=1" for ::1 at 2015-11-27 00:08:46 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 00:08:46 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 00:08:46 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 00:08:46 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 00:08:46 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-27 00:08:46 -0500
+
+
+Started GET "/homes" for ::1 at 2015-11-27 00:09:05 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1798ms (Views: 1796.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-2a28a5046c454b6fd2de08a2808c777efde10faadf32e0fae28b5d89bb11831f.css?body=1" for ::1 at 2015-11-27 00:09:07 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 00:09:07 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 00:09:07 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 00:09:07 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 00:09:07 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-27 00:09:07 -0500
+
+
+Started GET "/homes" for ::1 at 2015-11-27 00:09:19 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6274ms (Views: 6273.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f2b9c98afffd0e8da6ebf0592f3e567bb41ef1f24cd434378fa22b316da7905a.css?body=1" for ::1 at 2015-11-27 00:09:26 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 00:09:26 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 00:09:26 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 00:09:26 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 00:09:26 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-27 00:09:26 -0500
