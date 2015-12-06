@@ -15,13 +15,21 @@
  @import "bourbon";
  @import "neat";
  @import "homes";
+ @import url(https://fonts.googleapis.com/css?family=Pacifico);
+ @import url(https://fonts.googleapis.com/css?family=Kalam:400,700);
+ @import url(https://fonts.googleapis.com/css?family=Syncopate:400);
 
  #header {
    background-color: #555;
    color: #FFF;
    padding: 5px 15px;
+   font-family: 'Syncopate', sans-serif;
    font-size: 12px;
    font-weight: bold;
-   @include linear-gradient(#1e5799, #2989d8);
+   @include linear-gradient(#40526B, #6E8EA4);
 
  }
+
+.body {
+  background-color: inherit;
+}
