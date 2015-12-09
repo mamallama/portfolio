@@ -2362,3 +2362,2025 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-05 20:18:44 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-05 20:24:21 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 4134ms (Views: 4122.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ada076e109eb4d75e6dc31f5ad2f787adde89c49b15de865d82f02c68bff8d4a.css?body=1" for ::1 at 2015-12-05 20:24:26 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-05 20:24:26 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-05 20:24:26 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-05 20:24:26 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-05 20:24:27 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-05 20:24:27 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-05 20:25:56 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3697ms (Views: 3645.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1523988b89fc86c00d5cd7aadaddaf4c2416e194b9117ecfc9efe90178ca9be4.css?body=1" for ::1 at 2015-12-05 20:26:00 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-05 20:26:00 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-05 20:26:00 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-05 20:26:00 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-05 20:26:00 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-05 20:26:01 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-05 20:31:04 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 15993ms (Views: 15755.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-57238a273f5fb56d9572792724cf18eb9da53c9e4a559ab24c5735319e399605.css?body=1" for ::1 at 2015-12-05 20:31:51 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-05 20:35:41 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (20.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (55.3ms)
+Completed 200 OK in 2709ms (Views: 2661.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-57238a273f5fb56d9572792724cf18eb9da53c9e4a559ab24c5735319e399605.css?body=1" for ::1 at 2015-12-05 20:35:46 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-05 20:35:46 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-05 20:35:46 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-05 20:35:46 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-05 20:35:46 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-05 20:35:46 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-05 20:36:30 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2213ms (Views: 2211.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-05 20:36:33 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-05 20:36:33 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-05 20:36:33 -0500
+
+
+Started GET "/assets/application.self-a39dee22dbcd26b6ed16587cad66338bed0c0ce98cbd257276b074e2018a67ad.css?body=1" for ::1 at 2015-12-05 20:36:33 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-05 20:36:33 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-05 20:36:33 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-05 20:38:00 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 2823ms (Views: 2816.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-05 20:38:03 -0500
+
+
+Started GET "/assets/application.self-22bc582ddd0c8c12d5b9625aabb343daa7351069051cda91f191b15c34a70c64.css?body=1" for ::1 at 2015-12-05 20:38:03 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-05 20:38:03 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-05 20:38:03 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-05 20:38:03 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-05 20:38:03 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-05 21:37:47 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 5199ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Undefined variable: "$large-screen".):
+    3: <div id="header">
+    4:   <section>
+    5:     <h1>Renée Quijano</h1>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+    9:   </section>
+  app/assets/stylesheets/homes.scss:209:in `media'
+  app/assets/stylesheets/homes.scss:209
+  app/assets/stylesheets/application.scss:18
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___152582654591112785_70305346530920'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.2ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (166.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (160.0ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (355.2ms)
+
+
+Started GET "/homes" for ::1 at 2015-12-05 21:40:06 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 3618ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Undefined variable: "$large-screen".):
+    3: <div id="header">
+    4:   <section>
+    5:     <h1>Renée Quijano</h1>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+    9:   </section>
+  app/assets/stylesheets/homes.scss:209:in `media'
+  app/assets/stylesheets/homes.scss:209
+  app/assets/stylesheets/application.scss:18
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___152582654591112785_70305346530920'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.0ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (168.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (183.0ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (561.7ms)
+
+
+Started GET "/homes" for ::1 at 2015-12-05 21:41:10 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (25.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 1834ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Undefined variable: "$large-screen".):
+    3: <div id="header">
+    4:   <section>
+    5:     <h1>Renée Quijano</h1>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+    9:   </section>
+  app/assets/stylesheets/homes.scss:209:in `media'
+  app/assets/stylesheets/homes.scss:209
+  app/assets/stylesheets/application.scss:18
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__2870825863302806850_70345864570880'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.0ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (175.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (83.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (289.0ms)
+
+
+Started GET "/homes" for ::1 at 2015-12-05 21:41:17 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 722ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Undefined variable: "$large-screen".):
+    3: <div id="header">
+    4:   <section>
+    5:     <h1>Renée Quijano</h1>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+    9:   </section>
+  app/assets/stylesheets/homes.scss:209:in `media'
+  app/assets/stylesheets/homes.scss:209
+  app/assets/stylesheets/application.scss:18
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__2870825863302806850_70345864570880'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (35.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (103.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (52.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (119.1ms)
+
+
+Started GET "/homes" for ::1 at 2015-12-05 21:45:16 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 1326ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: base/base.
+Load paths:
+  /Users/batman2/Desktop/Resume/app/assets/images
+  /Users/batman2/Desktop/Resume/app/assets/javascripts
+  /Users/batman2/Desktop/Resume/app/assets/stylesheets
+  /Users/batman2/Desktop/Resume/vendor/assets/javascripts
+  /Users/batman2/Desktop/Resume/vendor/assets/stylesheets
+  /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets
+  /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets
+  /Users/batman2/.rvm/gems/ruby-2.2.1/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/batman2/.rvm/gems/ruby-2.2.1/gems/jquery-rails-4.0.5/vendor/assets/javascripts
+  /Users/batman2/.rvm/gems/ruby-2.2.1/gems/coffee-rails-4.1.0/lib/assets/javascripts):
+    3: <div id="header">
+    4:   <section>
+    5:     <h1>Renée Quijano</h1>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+    9:   </section>
+  app/assets/stylesheets/application.scss:17
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__2870825863302806850_70345864570880'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (130.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (69.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (201.4ms)
+
+
+Started GET "/homes" for ::1 at 2015-12-05 22:12:11 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 2060ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Undefined variable: "$large-screen".):
+    3: <div id="header">
+    4:   <section>
+    5:     <h1>Renée Quijano</h1>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+    9:   </section>
+  app/assets/stylesheets/homes.scss:209:in `media'
+  app/assets/stylesheets/homes.scss:209
+  app/assets/stylesheets/application.scss:19
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__2870825863302806850_70345864570880'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (18.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (22.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (145.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (106.2ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (303.4ms)
+
+
+Started GET "/homes" for ::1 at 2015-12-05 22:12:47 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (16.3ms)
+Completed 500 Internal Server Error in 1577ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Undefined variable: "$large-screen".):
+    3: <div id="header">
+    4:   <section>
+    5:     <h1>Renée Quijano</h1>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+    9:   </section>
+  app/assets/stylesheets/homes.scss:209:in `media'
+  app/assets/stylesheets/homes.scss:209
+  app/assets/stylesheets/application.scss:19
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__1116575675252779606_70132239088400'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (20.0ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (163.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (99.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (310.7ms)
+
+
+Started GET "/homes" for ::1 at 2015-12-05 22:13:42 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3512ms (Views: 3506.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-75141de25a56966b067c600fde73698e6fda97ab305e8ae3c67b9432bd8ef550.css?body=1" for ::1 at 2015-12-05 22:13:47 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-05 22:13:47 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-05 22:13:47 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-05 22:13:47 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-05 22:13:47 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-05 22:13:47 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-05 22:14:25 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2927ms (Views: 2924.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7c1cabedd465c46f0175f98b6401cacd1820a0f805a90649d050b1f1efb20b94.css?body=1" for ::1 at 2015-12-05 22:14:29 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-05 22:14:29 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-05 22:14:29 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-05 22:14:29 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-05 22:14:29 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-05 22:14:29 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-05 22:16:45 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 2627ms (Views: 2618.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-2ebcdf372735b7d900c7a8f4de4d7c294116e78287b8da69db907fca7f36881d.css?body=1" for ::1 at 2015-12-05 22:16:48 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-05 22:16:48 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-05 22:16:48 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-05 22:16:48 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-05 22:16:48 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-05 22:16:48 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-05 22:16:58 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1168ms (Views: 1167.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d5e4ff90f4b9396e1c0cef3ddab55e0fe899fd3e18ebab566835eb3cd744c4e0.css?body=1" for ::1 at 2015-12-05 22:17:00 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-05 22:17:00 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-05 22:17:00 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-05 22:17:00 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-05 22:17:00 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-05 22:17:00 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-05 22:17:27 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1928ms (Views: 1926.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d46ff7ea16df11f2df2cfcb7bbd4b545ac40074c625433da49bb1f3a78158dec.css?body=1" for ::1 at 2015-12-05 22:17:30 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-05 22:17:30 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-05 22:17:30 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-05 22:17:30 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-05 22:17:30 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-05 22:17:30 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-05 22:17:45 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1875ms (Views: 1874.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-05 22:17:47 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-05 22:17:47 -0500
+
+
+Started GET "/assets/application.self-f4e3cdf7215241dc4aef4e3d020d6f5e5ec778b89379c422326df2b6173fe9cf.css?body=1" for ::1 at 2015-12-05 22:17:47 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-05 22:17:47 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-05 22:17:47 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-05 22:17:47 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-05 22:18:19 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2317ms (Views: 2315.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-390a7042668804d46f0c95649373e69099466df99217932913fd77a9b07c2ad4.css?body=1" for ::1 at 2015-12-05 22:18:22 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-05 22:18:22 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-05 22:18:22 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-05 22:18:22 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-05 22:18:22 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-05 22:18:22 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-05 22:18:45 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2667ms (Views: 2665.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c158b3626bbaf43f127e01d1788938e7c8a9746451a51552fba3e6bd62064980.css?body=1" for ::1 at 2015-12-05 22:18:48 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-05 22:18:48 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-05 22:18:48 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-05 22:18:48 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-05 22:18:48 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-05 22:18:48 -0500
+
+
+Started GET "/" for ::1 at 2015-12-07 12:36:29 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (93.9ms)
+Completed 200 OK in 265ms (Views: 129.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes" for ::1 at 2015-12-07 12:36:44 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1006ms (Views: 935.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes" for ::1 at 2015-12-07 12:42:04 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 112ms (Views: 111.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c158b3626bbaf43f127e01d1788938e7c8a9746451a51552fba3e6bd62064980.css?body=1" for ::1 at 2015-12-07 12:42:05 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 12:42:05 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 12:42:05 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 12:42:05 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 12:42:05 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-07 12:42:05 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 12:42:57 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2176ms (Views: 2175.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-50bf3c0165f6bf867ece8e5dd2fff08ad5aecf87ecde043e3d151ef6c4ccf7fa.css?body=1" for ::1 at 2015-12-07 12:43:00 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 12:43:00 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 12:43:00 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 12:43:00 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 12:43:00 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-07 12:43:00 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 12:43:29 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1137ms (Views: 1136.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6e5c4bc59418b12548d324ec0be70831b21e8abc3fb1343af419fd7765c4368b.css?body=1" for ::1 at 2015-12-07 12:43:30 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 12:43:30 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 12:43:30 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-07 12:43:30 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 12:43:30 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 12:43:30 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 12:44:09 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1228ms (Views: 1227.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4efe29b4434109ef00fda95ee1a7e346a9f9d5463b799916015c77d5eaf775ce.css?body=1" for ::1 at 2015-12-07 12:44:10 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 12:44:10 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 12:44:10 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-07 12:44:10 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 12:44:10 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 12:44:10 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 12:44:39 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1094ms (Views: 1093.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-cfe6361ebc829bfb2acdc996a51b89cedba51ca0f69c3df803a778a227f02549.css?body=1" for ::1 at 2015-12-07 12:44:40 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 12:44:40 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 12:44:40 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 12:44:40 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-07 12:44:40 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 12:44:40 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 12:45:22 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1538ms (Views: 1536.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4c38e34c6ea841f83cb137cc494e0123c1818b56f47097cd012165654ec891fc.css?body=1" for ::1 at 2015-12-07 12:45:24 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 12:45:24 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 12:45:24 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 12:45:24 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-07 12:45:24 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 12:45:24 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 12:45:45 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1330ms (Views: 1328.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c5642faf97f6f9d019efbdc7d97e73d568697190fefdbcc24d8f3e5cbf595b30.css?body=1" for ::1 at 2015-12-07 12:45:47 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 12:45:47 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 12:45:47 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 12:45:47 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 12:45:47 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-07 12:45:47 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 12:49:17 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2177ms (Views: 2175.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1b8232eb60be331876a10e5760a35a6b976c39dcd643ebf2990852d0559cf26b.css?body=1" for ::1 at 2015-12-07 12:49:19 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 12:49:19 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 12:49:19 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-07 12:49:19 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 12:49:19 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 12:49:19 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 12:49:55 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1441ms (Views: 1440.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1a6dd88294bb538175e8f38ad513c60f403660cfbaad3dc051408547d05e3f5f.css?body=1" for ::1 at 2015-12-07 12:49:57 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 12:49:57 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 12:49:57 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 12:49:57 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 12:49:57 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-07 12:49:57 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 12:50:56 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 308ms (Views: 306.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1a6dd88294bb538175e8f38ad513c60f403660cfbaad3dc051408547d05e3f5f.css?body=1" for ::1 at 2015-12-07 12:50:56 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 12:50:56 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 12:50:56 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-07 12:50:56 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 12:50:56 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 12:50:56 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 12:51:22 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 90ms (Views: 89.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1a6dd88294bb538175e8f38ad513c60f403660cfbaad3dc051408547d05e3f5f.css?body=1" for ::1 at 2015-12-07 12:51:23 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-07 12:51:23 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 12:51:23 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 12:51:23 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 12:51:23 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 12:51:23 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 12:52:00 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1336ms (Views: 1335.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-df563e0c5d80dabde226a4f10867c9173ae0e4f2d1547c9f119b0bb9790fc845.css?body=1" for ::1 at 2015-12-07 12:52:01 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-07 12:52:01 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 12:52:01 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 12:52:01 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 12:52:01 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 12:52:01 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 12:52:16 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1123ms (Views: 1122.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 12:52:17 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 12:52:17 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 12:52:17 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-07 12:52:17 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 12:52:17 -0500
+
+
+Started GET "/assets/application.self-6ee1745541be13cf9433440815e429e96ca62532a229ae7aec28c2c75d6481ee.css?body=1" for ::1 at 2015-12-07 12:52:17 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 12:52:40 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1965ms (Views: 1963.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c4d4e3cc5a4402d01fc5e53b8d4538c5fd23e017450498a21ea4f43e25d2eebb.css?body=1" for ::1 at 2015-12-07 12:52:42 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 12:52:42 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 12:52:42 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-07 12:52:43 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 12:52:43 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 12:52:43 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 12:53:01 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 80ms (Views: 78.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 12:53:02 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 12:53:02 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 12:53:02 -0500
+
+
+Started GET "/assets/application.self-c4d4e3cc5a4402d01fc5e53b8d4538c5fd23e017450498a21ea4f43e25d2eebb.css?body=1" for ::1 at 2015-12-07 12:53:02 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-07 12:53:02 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 12:53:02 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 12:53:14 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1527ms (Views: 1526.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 12:53:16 -0500
+
+
+Started GET "/assets/application.self-a56ca3b9dafc255e1141accbe1d8b46de49126d6d9d36cb21dcb3559755f09bb.css?body=1" for ::1 at 2015-12-07 12:53:16 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 12:53:16 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 12:53:16 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-07 12:53:16 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 12:53:16 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 12:53:28 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1075ms (Views: 1073.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-27cff6d977311331d674f1bc0e70ba6c13eef6c235ecdd198b9f092261e9ae59.css?body=1" for ::1 at 2015-12-07 12:53:29 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 12:53:29 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 12:53:29 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-07 12:53:29 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 12:53:29 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 12:53:29 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 12:53:40 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1388ms (Views: 1386.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9e933dafe8ffa2e9db9e6e26bd622e892d0121e2a0a2c4193ded8b19ef8205f1.css?body=1" for ::1 at 2015-12-07 12:53:42 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 12:53:42 -0500
+
+
+Started GET "/assets/homes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-07 12:53:42 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 12:53:42 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 12:53:42 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 12:53:42 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 12:55:15 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 4420ms (Views: 4413.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9dce03b9da83d4ddd5953361829ec67d818fb63c4b7971a37d297aa1d54debf9.css?body=1" for ::1 at 2015-12-07 12:55:19 -0500
+
+
+Started GET "/assets/homes.self-0fd7a1607e8d5bcae6afede002bc97583d24df927fdb87926eb49cf19c578381.js?body=1" for ::1 at 2015-12-07 12:55:19 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 12:55:20 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 12:55:20 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 12:55:20 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 12:55:20 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 12:59:00 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (2.7ms)
+WARNING: The $display argument will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 39 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_row.scss, in `row'
+         from line 113 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 112 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: Resetting $display will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 64 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_to-deprecate.scss, in `reset-display'
+         from line 163 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 200 OK in 2691ms (Views: 2684.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homes.self-0fd7a1607e8d5bcae6afede002bc97583d24df927fdb87926eb49cf19c578381.js?body=1" for ::1 at 2015-12-07 12:59:03 -0500
+
+
+Started GET "/assets/application.self-70a70adf01f20c361bb42f6da5e6bf666d8ee5b1e89ed8fafdc5d1ae7df3b479.css?body=1" for ::1 at 2015-12-07 12:59:03 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 12:59:03 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 12:59:04 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 12:59:04 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 12:59:04 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 12:59:22 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 85ms (Views: 84.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 12:59:23 -0500
+
+
+Started GET "/assets/homes.self-0fd7a1607e8d5bcae6afede002bc97583d24df927fdb87926eb49cf19c578381.js?body=1" for ::1 at 2015-12-07 12:59:23 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 12:59:23 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 12:59:23 -0500
+
+
+Started GET "/assets/application.self-70a70adf01f20c361bb42f6da5e6bf666d8ee5b1e89ed8fafdc5d1ae7df3b479.css?body=1" for ::1 at 2015-12-07 12:59:23 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 12:59:23 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 12:59:49 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 68ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-70a70adf01f20c361bb42f6da5e6bf666d8ee5b1e89ed8fafdc5d1ae7df3b479.css?body=1" for ::1 at 2015-12-07 12:59:49 -0500
+
+
+Started GET "/assets/homes.self-0fd7a1607e8d5bcae6afede002bc97583d24df927fdb87926eb49cf19c578381.js?body=1" for ::1 at 2015-12-07 12:59:49 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 12:59:49 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 12:59:49 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 12:59:49 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 12:59:49 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 13:01:19 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.0ms)
+WARNING: The $display argument will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 39 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_row.scss, in `row'
+         from line 113 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 112 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: Resetting $display will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 64 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_to-deprecate.scss, in `reset-display'
+         from line 163 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 200 OK in 1287ms (Views: 1285.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 13:01:20 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 13:01:20 -0500
+
+
+Started GET "/assets/homes.self-0fd7a1607e8d5bcae6afede002bc97583d24df927fdb87926eb49cf19c578381.js?body=1" for ::1 at 2015-12-07 13:01:20 -0500
+
+
+Started GET "/assets/application.self-afd0a35b8d1ce822becc41adaea75b6e6461d0dbc340a70dcb70458486ff9b02.css?body=1" for ::1 at 2015-12-07 13:01:20 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 13:01:20 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 13:01:20 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 13:03:40 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.2ms)
+WARNING: The $display argument will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 39 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_row.scss, in `row'
+         from line 113 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 112 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: Resetting $display will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 64 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_to-deprecate.scss, in `reset-display'
+         from line 163 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 200 OK in 1488ms (Views: 1486.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homes.self-0fd7a1607e8d5bcae6afede002bc97583d24df927fdb87926eb49cf19c578381.js?body=1" for ::1 at 2015-12-07 13:03:42 -0500
+
+
+Started GET "/assets/application.self-bb80c5696af524e4db0a287be4a34243af38008064618a6263d4f7a31e6eb28e.css?body=1" for ::1 at 2015-12-07 13:03:42 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 13:03:42 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 13:03:42 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 13:03:42 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 13:03:42 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 13:10:43 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.8ms)
+WARNING: The $display argument will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 39 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_row.scss, in `row'
+         from line 113 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 112 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: Resetting $display will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 64 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_to-deprecate.scss, in `reset-display'
+         from line 163 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 200 OK in 3506ms (Views: 3500.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homes.self-0fd7a1607e8d5bcae6afede002bc97583d24df927fdb87926eb49cf19c578381.js?body=1" for ::1 at 2015-12-07 13:10:47 -0500
+
+
+Started GET "/assets/application.self-2caf9d0a7f0677dfef4a14b75a916afcc3a97ce3069c1341d129d4c4c6262f37.css?body=1" for ::1 at 2015-12-07 13:10:47 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 13:10:47 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 13:10:47 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 13:10:47 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 13:10:47 -0500
+
+
+Started GET "/myface.jpg" for ::1 at 2015-12-07 13:10:48 -0500
+
+ActionController::RoutingError (No route matches [GET] "/myface.jpg"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (425.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (661.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (143.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (301.8ms)
+
+
+Started GET "/homes" for ::1 at 2015-12-07 13:23:29 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (2.0ms)
+WARNING: The $display argument will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 39 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_row.scss, in `row'
+         from line 113 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 112 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: Resetting $display will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 64 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_to-deprecate.scss, in `reset-display'
+         from line 163 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 200 OK in 1910ms (Views: 1899.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homes.self-0fd7a1607e8d5bcae6afede002bc97583d24df927fdb87926eb49cf19c578381.js?body=1" for ::1 at 2015-12-07 13:23:32 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 13:23:32 -0500
+
+
+Started GET "/assets/application.self-a3b5b6579fec8f679cf1827a937cc8e8d77451170e36fc5e0c0a52fc4298cdc0.css?body=1" for ::1 at 2015-12-07 13:23:32 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 13:23:32 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 13:23:32 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 13:23:32 -0500
+
+
+Started GET "/assets/myface.jpg" for ::1 at 2015-12-07 13:23:32 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 13:24:11 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+WARNING: The $display argument will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 39 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_row.scss, in `row'
+         from line 113 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 112 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: Resetting $display will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 64 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_to-deprecate.scss, in `reset-display'
+         from line 163 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 200 OK in 2204ms (Views: 2203.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homes.self-0fd7a1607e8d5bcae6afede002bc97583d24df927fdb87926eb49cf19c578381.js?body=1" for ::1 at 2015-12-07 13:24:13 -0500
+
+
+Started GET "/assets/application.self-49160eb7dfdd860ecd0d72680e89a55d36be2794f13aa0c2a1da95d8805c4128.css?body=1" for ::1 at 2015-12-07 13:24:14 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 13:24:14 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 13:24:14 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 13:24:14 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 13:24:14 -0500
+
+
+Started GET "/assets/myface.jpg" for ::1 at 2015-12-07 13:24:14 -0500
+
+
+Started GET "/assets/galaxy_trees.png" for ::1 at 2015-12-07 13:24:14 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 13:25:19 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 108ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "...ncoat', cursive": expected "{", was ";"):
+    3: <div id="header">
+    4:   <section>
+    5:     <h1>Renée Quijano</h1>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+    9:   </section>
+  app/assets/stylesheets/application.scss:23
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__1116575675252779606_70132239088400'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.0ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (127.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (79.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (235.4ms)
+
+
+Started GET "/homes" for ::1 at 2015-12-07 13:25:38 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+WARNING: The $display argument will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 39 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_row.scss, in `row'
+         from line 113 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 112 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: Resetting $display will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 64 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_to-deprecate.scss, in `reset-display'
+         from line 163 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 200 OK in 2036ms (Views: 2032.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homes.self-0fd7a1607e8d5bcae6afede002bc97583d24df927fdb87926eb49cf19c578381.js?body=1" for ::1 at 2015-12-07 13:25:40 -0500
+
+
+Started GET "/assets/application.self-cba7b9f7b5e5a2954cdf8b31aad69f526941a0a1b471bcc5fe576df5fd801371.css?body=1" for ::1 at 2015-12-07 13:25:40 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 13:25:40 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 13:25:40 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 13:25:40 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 13:25:40 -0500
+
+
+Started GET "/assets/myface.jpg" for ::1 at 2015-12-07 13:25:41 -0500
+
+
+Started GET "/assets/galaxy_trees.png" for ::1 at 2015-12-07 13:25:41 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 13:26:34 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+WARNING: The $display argument will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 39 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_row.scss, in `row'
+         from line 113 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 112 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: Resetting $display will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 64 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_to-deprecate.scss, in `reset-display'
+         from line 163 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 200 OK in 2183ms (Views: 2182.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homes.self-0fd7a1607e8d5bcae6afede002bc97583d24df927fdb87926eb49cf19c578381.js?body=1" for ::1 at 2015-12-07 13:26:36 -0500
+
+
+Started GET "/assets/application.self-f9d82e624bd26a266ba91398fad87c4eb0149ea5f04ed5ff07f659fdfed2e37f.css?body=1" for ::1 at 2015-12-07 13:26:36 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 13:26:36 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 13:26:37 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 13:26:37 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 13:26:37 -0500
+
+
+Started GET "/assets/galaxy_trees.png" for ::1 at 2015-12-07 13:26:37 -0500
+
+
+Started GET "/assets/myface.jpg" for ::1 at 2015-12-07 13:26:37 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 13:27:06 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 177ms (Views: 174.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homes.self-0fd7a1607e8d5bcae6afede002bc97583d24df927fdb87926eb49cf19c578381.js?body=1" for ::1 at 2015-12-07 13:27:06 -0500
+
+
+Started GET "/assets/application.self-f9d82e624bd26a266ba91398fad87c4eb0149ea5f04ed5ff07f659fdfed2e37f.css?body=1" for ::1 at 2015-12-07 13:27:06 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 13:27:06 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 13:27:06 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 13:27:06 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 13:27:06 -0500
+
+
+Started GET "/assets/myface.jpg" for ::1 at 2015-12-07 13:27:07 -0500
+
+
+Started GET "/assets/galaxy_trees.png" for ::1 at 2015-12-07 13:27:07 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 14:44:24 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.9ms)
+WARNING: The $display argument will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 39 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_row.scss, in `row'
+         from line 113 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 112 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: Resetting $display will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 64 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_to-deprecate.scss, in `reset-display'
+         from line 163 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 200 OK in 5111ms (Views: 4964.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homes.self-0fd7a1607e8d5bcae6afede002bc97583d24df927fdb87926eb49cf19c578381.js?body=1" for ::1 at 2015-12-07 14:44:32 -0500
+
+
+Started GET "/assets/application.self-cdce6204a731d7db7921dad0504d2560378c4f74f25def5e6c25909c9fcbd7da.css?body=1" for ::1 at 2015-12-07 14:44:32 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 14:44:32 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 14:44:32 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 14:44:32 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 14:44:32 -0500
+
+
+Started GET "/assets/myface.jpg" for ::1 at 2015-12-07 14:44:32 -0500
+
+
+Started GET "/assets/galaxy_trees.png" for ::1 at 2015-12-07 14:44:32 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 14:45:34 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (72.7ms)
+Completed 200 OK in 166ms (Views: 165.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homes.self-0fd7a1607e8d5bcae6afede002bc97583d24df927fdb87926eb49cf19c578381.js?body=1" for ::1 at 2015-12-07 14:45:34 -0500
+
+
+Started GET "/assets/application.self-cdce6204a731d7db7921dad0504d2560378c4f74f25def5e6c25909c9fcbd7da.css?body=1" for ::1 at 2015-12-07 14:45:34 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 14:45:34 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 14:45:34 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 14:45:34 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 14:45:34 -0500
+
+
+Started GET "/assets/myface.jpg" for ::1 at 2015-12-07 14:45:35 -0500
+
+
+Started GET "/assets/galaxy_trees.png" for ::1 at 2015-12-07 14:45:35 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 14:48:12 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.0ms)
+WARNING: The $display argument will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 39 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_row.scss, in `row'
+         from line 113 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 112 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: Resetting $display will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 64 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_to-deprecate.scss, in `reset-display'
+         from line 163 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 200 OK in 1396ms (Views: 1395.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homes.self-0fd7a1607e8d5bcae6afede002bc97583d24df927fdb87926eb49cf19c578381.js?body=1" for ::1 at 2015-12-07 14:48:14 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-07 14:48:14 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-07 14:48:14 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-07 14:48:14 -0500
+
+
+Started GET "/assets/application.self-32801b73d8b93d67b00a9157118b5d47fa4e27a751d8521781437e5b3e3368f2.css?body=1" for ::1 at 2015-12-07 14:48:14 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-07 14:48:14 -0500
+
+
+Started GET "/assets/myface.jpg" for ::1 at 2015-12-07 14:48:16 -0500
+
+
+Started GET "/assets/galaxy_trees.png" for ::1 at 2015-12-07 14:48:16 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-07 14:54:29 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.0ms)
+WARNING: The $display argument will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 39 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_row.scss, in `row'
+         from line 113 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 112 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: Resetting $display will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 64 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_to-deprecate.scss, in `reset-display'
+         from line 163 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 500 Internal Server Error in 862ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: font-awesome-sprockets.
+Load paths:
+  /Users/batman2/Desktop/Resume/app/assets/images
+  /Users/batman2/Desktop/Resume/app/assets/javascripts
+  /Users/batman2/Desktop/Resume/app/assets/stylesheets
+  /Users/batman2/Desktop/Resume/vendor/assets/javascripts
+  /Users/batman2/Desktop/Resume/vendor/assets/stylesheets
+  /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets
+  /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets
+  /Users/batman2/.rvm/gems/ruby-2.2.1/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/batman2/.rvm/gems/ruby-2.2.1/gems/jquery-rails-4.0.5/vendor/assets/javascripts
+  /Users/batman2/.rvm/gems/ruby-2.2.1/gems/coffee-rails-4.1.0/lib/assets/javascripts):
+    3: <div id="header">
+    4:   <section>
+    5:     <h1>Renée Quijano</h1>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+    9:   </section>
+  app/assets/stylesheets/application.scss:21
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__1116575675252779606_70132267859400'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (37.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (32.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (187.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (38.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (99.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (299.5ms)
+
+
+Started GET "/homes" for ::1 at 2015-12-09 15:24:17 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (38.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (145.1ms)
+WARNING: The $display argument will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 39 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_row.scss, in `row'
+         from line 113 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 112 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: Resetting $display will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 64 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_to-deprecate.scss, in `reset-display'
+         from line 163 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 500 Internal Server Error in 2958ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: font-awesome-sprockets.
+Load paths:
+  /Users/batman2/Desktop/Resume/app/assets/images
+  /Users/batman2/Desktop/Resume/app/assets/javascripts
+  /Users/batman2/Desktop/Resume/app/assets/stylesheets
+  /Users/batman2/Desktop/Resume/vendor/assets/javascripts
+  /Users/batman2/Desktop/Resume/vendor/assets/stylesheets
+  /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets
+  /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets
+  /Users/batman2/.rvm/gems/ruby-2.2.1/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/batman2/.rvm/gems/ruby-2.2.1/gems/jquery-rails-4.0.5/vendor/assets/javascripts
+  /Users/batman2/.rvm/gems/ruby-2.2.1/gems/coffee-rails-4.1.0/lib/assets/javascripts):
+    3: <div id="header">
+    4:   <section>
+    5:     <h1>Renée Quijano</h1>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+    9:   </section>
+  app/assets/stylesheets/application.scss:21
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1798083016928931113_70125864702300'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (243.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (137.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (420.4ms)
+
+
+Started GET "/homes" for ::1 at 2015-12-09 15:26:21 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.3ms)
+WARNING: The $display argument will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 39 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_row.scss, in `row'
+         from line 113 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 112 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: Resetting $display will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 64 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_to-deprecate.scss, in `reset-display'
+         from line 163 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 200 OK in 3615ms (Views: 3602.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-09 15:26:25 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-09 15:26:25 -0500
+
+
+Started GET "/assets/homes.self-0fd7a1607e8d5bcae6afede002bc97583d24df927fdb87926eb49cf19c578381.js?body=1" for ::1 at 2015-12-09 15:26:25 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-09 15:26:25 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-09 15:26:25 -0500
+
+
+Started GET "/assets/application.self-ebfd3df408316c78602ac265ca44b7b7b464baf1aa6b761c64a2ef91cb08269b.css?body=1" for ::1 at 2015-12-09 15:26:25 -0500
+
+
+Started GET "/assets/galaxy_trees.png" for ::1 at 2015-12-09 15:26:31 -0500
+
+
+Started GET "/assets/myface.jpg" for ::1 at 2015-12-09 15:26:31 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-09 15:31:10 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 340ms (Views: 329.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ebfd3df408316c78602ac265ca44b7b7b464baf1aa6b761c64a2ef91cb08269b.css?body=1" for ::1 at 2015-12-09 15:31:11 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-09 15:31:11 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-09 15:31:11 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-09 15:31:11 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-09 15:31:11 -0500
+
+
+Started GET "/assets/homes.self-0fd7a1607e8d5bcae6afede002bc97583d24df927fdb87926eb49cf19c578381.js?body=1" for ::1 at 2015-12-09 15:31:11 -0500
+
+
+Started GET "/assets/myface.jpg" for ::1 at 2015-12-09 15:31:11 -0500
+
+
+Started GET "/assets/galaxy_trees.png" for ::1 at 2015-12-09 15:31:11 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-09 15:31:42 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 226ms (Views: 225.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ebfd3df408316c78602ac265ca44b7b7b464baf1aa6b761c64a2ef91cb08269b.css?body=1" for ::1 at 2015-12-09 15:31:43 -0500
+
+
+Started GET "/assets/homes.self-0fd7a1607e8d5bcae6afede002bc97583d24df927fdb87926eb49cf19c578381.js?body=1" for ::1 at 2015-12-09 15:31:43 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-09 15:31:43 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-09 15:31:43 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-09 15:31:43 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-09 15:31:43 -0500
+
+
+Started GET "/assets/galaxy_trees.png" for ::1 at 2015-12-09 15:31:45 -0500
+
+
+Started GET "/assets/myface.jpg" for ::1 at 2015-12-09 15:31:45 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-09 15:32:20 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 170ms (Views: 169.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ebfd3df408316c78602ac265ca44b7b7b464baf1aa6b761c64a2ef91cb08269b.css?body=1" for ::1 at 2015-12-09 15:32:20 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-09 15:32:20 -0500
+
+
+Started GET "/assets/homes.self-0fd7a1607e8d5bcae6afede002bc97583d24df927fdb87926eb49cf19c578381.js?body=1" for ::1 at 2015-12-09 15:32:20 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-09 15:32:20 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-09 15:32:20 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-09 15:32:20 -0500
+
+
+Started GET "/assets/galaxy_trees.png" for ::1 at 2015-12-09 15:32:22 -0500
+
+
+Started GET "/assets/myface.jpg" for ::1 at 2015-12-09 15:32:22 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-09 15:37:02 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (2.5ms)
+WARNING: The $display argument will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 39 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_row.scss, in `row'
+         from line 113 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 112 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: Resetting $display will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 64 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_to-deprecate.scss, in `reset-display'
+         from line 163 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 500 Internal Server Error in 5056ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (SyntaxError: [stdin]:33:29: reserved word 'default'):
+    4:   <section>
+    5:     <h1>Renée Quijano</h1>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+    9:   </section>
+   10: </div>
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___1798083016928931113_70125828148140'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.0ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.2ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (129.2ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (80.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (255.2ms)
+
+
+Started GET "/homes" for ::1 at 2015-12-09 15:37:58 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 121ms (Views: 120.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-03b95e5e9ddbaf2222592bedb4038e555d7e9d0a5781eca7d42309b64dce5771.css?body=1" for ::1 at 2015-12-09 15:37:59 -0500
+
+
+Started GET "/assets/myface.jpg" for ::1 at 2015-12-09 15:38:02 -0500
+
+
+Started GET "/assets/galaxy_trees.png" for ::1 at 2015-12-09 15:38:02 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-09 15:38:19 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 48ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-03b95e5e9ddbaf2222592bedb4038e555d7e9d0a5781eca7d42309b64dce5771.css?body=1" for ::1 at 2015-12-09 15:38:20 -0500
+
+
+Started GET "/assets/myface.jpg" for ::1 at 2015-12-09 15:38:21 -0500
+
+
+Started GET "/assets/galaxy_trees.png" for ::1 at 2015-12-09 15:38:21 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-09 15:38:44 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 146ms (Views: 145.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-03b95e5e9ddbaf2222592bedb4038e555d7e9d0a5781eca7d42309b64dce5771.css?body=1" for ::1 at 2015-12-09 15:38:44 -0500
+
+
+Started GET "/assets/galaxy_trees.png" for ::1 at 2015-12-09 15:38:44 -0500
+
+
+Started GET "/assets/myface.jpg" for ::1 at 2015-12-09 15:38:44 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-09 15:38:53 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 81ms (Views: 79.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-03b95e5e9ddbaf2222592bedb4038e555d7e9d0a5781eca7d42309b64dce5771.css?body=1" for ::1 at 2015-12-09 15:38:54 -0500
+
+
+Started GET "/assets/galaxy_trees.png" for ::1 at 2015-12-09 15:38:56 -0500
+
+
+Started GET "/assets/myface.jpg" for ::1 at 2015-12-09 15:38:56 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-09 15:42:37 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 193ms (Views: 182.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-03b95e5e9ddbaf2222592bedb4038e555d7e9d0a5781eca7d42309b64dce5771.css?body=1" for ::1 at 2015-12-09 15:42:38 -0500
+
+
+Started GET "/assets/galaxy_trees.png" for ::1 at 2015-12-09 15:42:40 -0500
+
+
+Started GET "/assets/myface.jpg" for ::1 at 2015-12-09 15:42:40 -0500

@@ -13,23 +13,23 @@
  *= require_self
  */
  @import "bourbon";
+ @import "base/base";
  @import "neat";
  @import "homes";
- @import url(https://fonts.googleapis.com/css?family=Pacifico);
- @import url(https://fonts.googleapis.com/css?family=Kalam:400,700);
- @import url(https://fonts.googleapis.com/css?family=Syncopate:400);
+ @import url(https://fonts.googleapis.com/css?family=Syncopate:700,400|Walter+Turncoat|Kalam:400,700);
+
 
  #header {
-   background-color: #555;
+  //  background-color: #40526B;
    color: #FFF;
-   padding: 5px 15px;
+   padding: 8px 25px;
    font-family: 'Syncopate', sans-serif;
-   font-size: 12px;
-   font-weight: bold;
-   @include linear-gradient(#40526B, #6E8EA4);
+   font-size: 20px;
+  //  font-weight: bold;
+   @include linear-gradient(#1B2429, #202B30);
 
  }
 
-.body {
-  background-color: inherit;
-}
+// .body {
+  // background-color: #40526B;
+// }

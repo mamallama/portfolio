@@ -4,11 +4,14 @@
   <section>
     <h1>Renée Quijano</h1>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application' => true %>
     <%= csrf_meta_tags %>
   </section>
-  <!-- TODO: ADD fontawesome linkedIn, twitter, blog icons to the header here -->
 </div>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+</head>
 <body>
 
 <%= yield %>
