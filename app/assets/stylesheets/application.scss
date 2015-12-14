@@ -16,7 +16,7 @@
  @import "base/base";
  @import "neat";
  @import "homes";
- @import url(https://fonts.googleapis.com/css?family=Syncopate:700,400|Walter+Turncoat|Kalam:400,700);
+ @import url(https://fonts.googleapis.com/css?family=Syncopate:400|Walter+Turncoat|Kalam:400,700);
 
 
  #header {
@@ -24,7 +24,7 @@
    color: #FFF;
    padding: 8px 25px;
    font-family: 'Syncopate', sans-serif;
-   font-size: 17px;
+   font-size: 15px;
   //  font-weight: bold;
    @include linear-gradient(#1B2429, #202B30);
  }
