@@ -4973,3 +4973,48 @@ ActionView::Template::Error (undefined local variable or method `pdfjs' for #<#<
   Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
   Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
   Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (294.4ms)
+
+
+Started GET "/homes" for ::1 at 2015-12-13 20:30:08 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (105.3ms)
+Completed 200 OK in 1603ms (Views: 1510.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0b05669628d635b3cf7b40ec89d455274b9b0f328a8202e32d1b50d01159e475.css?body=1" for ::1 at 2015-12-13 20:30:11 -0500
+
+
+Started GET "/assets/myface.jpg" for ::1 at 2015-12-13 20:30:14 -0500
+
+
+Started GET "/assets/galaxy_trees.png" for ::1 at 2015-12-13 20:30:14 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-13 20:32:17 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (61.2ms)
+Completed 200 OK in 873ms (Views: 857.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0b05669628d635b3cf7b40ec89d455274b9b0f328a8202e32d1b50d01159e475.css?body=1" for ::1 at 2015-12-13 20:32:19 -0500
+
+
+Started GET "/assets/galaxy_trees.png" for ::1 at 2015-12-13 20:32:20 -0500
+
+
+Started GET "/assets/myface.jpg" for ::1 at 2015-12-13 20:32:20 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-13 20:32:51 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 936ms (Views: 935.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0b05669628d635b3cf7b40ec89d455274b9b0f328a8202e32d1b50d01159e475.css?body=1" for ::1 at 2015-12-13 20:32:53 -0500
+
+
+Started GET "/assets/galaxy_trees.png" for ::1 at 2015-12-13 20:32:55 -0500
+
+
+Started GET "/assets/myface.jpg" for ::1 at 2015-12-13 20:32:55 -0500
