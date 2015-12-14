@@ -6112,3 +6112,184 @@ Started GET "/assets/application.self-74cc1160748a3d2160027f67498256bd975e6977ff
 
 
 Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 16:17:05 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 16:20:21 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (30.7ms)
+Completed 200 OK in 376ms (Views: 368.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-74cc1160748a3d2160027f67498256bd975e6977ffdd68c4f9900d441c23d4e4.css?body=1" for ::1 at 2015-12-14 16:20:22 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 16:20:23 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 16:23:00 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (34.5ms)
+Completed 200 OK in 619ms (Views: 608.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-74cc1160748a3d2160027f67498256bd975e6977ffdd68c4f9900d441c23d4e4.css?body=1" for ::1 at 2015-12-14 16:23:01 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 16:23:01 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 16:24:03 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (149.8ms)
+Completed 200 OK in 703ms (Views: 696.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-74cc1160748a3d2160027f67498256bd975e6977ffdd68c4f9900d441c23d4e4.css?body=1" for ::1 at 2015-12-14 16:24:04 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 16:24:05 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 16:24:43 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 77ms (Views: 76.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-74cc1160748a3d2160027f67498256bd975e6977ffdd68c4f9900d441c23d4e4.css?body=1" for ::1 at 2015-12-14 16:24:44 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 16:24:44 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 16:27:30 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 181ms (Views: 174.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-74cc1160748a3d2160027f67498256bd975e6977ffdd68c4f9900d441c23d4e4.css?body=1" for ::1 at 2015-12-14 16:27:31 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 16:27:31 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 16:27:42 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (47.5ms)
+Completed 200 OK in 108ms (Views: 106.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-74cc1160748a3d2160027f67498256bd975e6977ffdd68c4f9900d441c23d4e4.css?body=1" for ::1 at 2015-12-14 16:27:43 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 16:27:44 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 16:57:56 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (153.9ms)
+WARNING: The $display argument will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 39 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_row.scss, in `row'
+         from line 564 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 563 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: Resetting $display will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 64 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_to-deprecate.scss, in `reset-display'
+         from line 614 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 319 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 360 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 354 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 200 OK in 11166ms (Views: 11160.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a74a5be7c400511aacb2090c3fde2879739773ef745453a5ab6bb3527cc028cb.css?body=1" for ::1 at 2015-12-14 16:58:08 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 16:58:09 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 16:59:12 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 826ms (Views: 816.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a74a5be7c400511aacb2090c3fde2879739773ef745453a5ab6bb3527cc028cb.css?body=1" for ::1 at 2015-12-14 16:59:14 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 16:59:14 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 17:00:00 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (163.0ms)
+Completed 200 OK in 1217ms (Views: 1215.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a74a5be7c400511aacb2090c3fde2879739773ef745453a5ab6bb3527cc028cb.css?body=1" for ::1 at 2015-12-14 17:00:02 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 17:00:02 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 17:00:28 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 421ms (Views: 419.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a74a5be7c400511aacb2090c3fde2879739773ef745453a5ab6bb3527cc028cb.css?body=1" for ::1 at 2015-12-14 17:00:29 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 17:00:31 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 17:00:38 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 94ms (Views: 91.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 17:00:45 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 17:01:22 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (53.4ms)
+Completed 200 OK in 248ms (Views: 240.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a74a5be7c400511aacb2090c3fde2879739773ef745453a5ab6bb3527cc028cb.css?body=1" for ::1 at 2015-12-14 17:01:23 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 17:01:23 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 17:10:05 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 221ms (Views: 207.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a74a5be7c400511aacb2090c3fde2879739773ef745453a5ab6bb3527cc028cb.css?body=1" for ::1 at 2015-12-14 17:10:06 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 17:10:06 -0500
