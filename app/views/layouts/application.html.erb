@@ -1,25 +1,61 @@
 <!DOCTYPE html>
 <html>
-<div id="header">
-  <div>
-    <h1>Renée Quijano</h1>
+  <header class="navigation" role="banner">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <div class="navigation-wrapper">
+      <a href="javascript:void(0)" class="logo">
+        <img src="http://orig03.deviantart.net/04bf/f/2013/083/4/6/sailor_moon__luna_by_xxamyxxx-d5z3y5d.png" alt="Logo image">
+      </a>
+      <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
+      <nav role="navigation">
+        <ul id="js-navigation-menu" class="navigation-menu show">
+          <li class="nav-link"><a href="javascript:void(0)">Products</a></li>
+          <li class="nav-link"><a href="javascript:void(0)">About Us</a></li>
+          <li class="nav-link"><a href="javascript:void(0)">Contact</a></li>
+          <li class="nav-link more"><a href="javascript:void(0)">More</a>
+            <ul class="submenu">
+              <li><a href="javascript:void(0)">Submenu Item</a></li>
+              <li><a href="javascript:void(0)">Another Item</a></li>
+              <li class="more"><a href="javascript:void(0)">Item with submenu</a>
+                <ul class="submenu">
+                  <li><a href="javascript:void(0)">Sub-submenu Item</a></li>
+                  <li><a href="javascript:void(0)">Another Item</a></li>
+                </ul>
+              </li>
+              <li class="more"><a href="javascript:void(0)">Another submenu</a>
+                <ul class="submenu">
+                  <li><a href="javascript:void(0)">Sub-submenu</a></li>
+                  <li><a href="javascript:void(0)">An Item</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div class="navigation-tools">
+        <div class="search-bar">
+          <form role="search">
+            <input type="search" placeholder="Enter Search" />
+            <button type="submit">
+              <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/search-icon.png" alt="Search Icon">
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+<!-- <div class="header"> -->
+    <!-- <h1>Renée Quijano</h1> -->
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
     <%= javascript_include_tag 'application' => true %>
     <%= csrf_meta_tags %>
-  </div>
-  <div id="social-fa">
-    <i class="fa fa-github fa-2x"></i>
+    <!-- <i class="fa fa-github fa-2x"></i>
     <i class="fa fa-linkedin-square fa-2x"></i>
-    <i class="fa fa-twitter-square fa-2x"></i>
-    <i class="fa fa-envelope-o fa-2x"></i>
-    <i class="fa fa-file-o fa-2x"></i>
+    <i class="fa fa-twitter-square fa-2x"></i> -->
+    <!-- <i class="fa fa-envelope-o fa-1x"></i>
+    <i class="fa fa-file-o fa-1x"></i> -->
 
-  </div>
-</div>
-<head>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-</head>
+<!-- </div> -->
 <body>
 
 <%= yield %>

@@ -11,245 +11,112 @@ body {
   // background-size: 100%;
 }
 
-// Background image gradient
+// GRID ITEMS
+@mixin grid-item-columns($columns) {
+  width: (100% / 12) * $columns;
+}
 
-// html, body {
-//   width: 100%;
-//   height: 100%;
-// }
-
-// .bg-img {
-  // width: 100%;
-  // height: 100%;
-  // background: url('http://static.tumblr.com/e94ecab4835b63c228b4de8c3ca5d2f7/h8wsaln/Qa2nmk1fn/tumblr_static_6j3ottn05jsw84o0k8088oksw.png') center center no-repeat;
-  // background-position: 100%;
-
-  // &:before {
-  //   content: '';
-	// 	position: absolute;
-	// 	top: 0;
-	// 	right: 0;
-	// 	bottom: 0;
-	// 	left: 0;
-	// 	background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
-	// 	opacity: .6;
-  // }
-// }
-
-
-// .hero {
-//   $base-border-radius: 3px !default;
-//   $action-color: #477DCA !default;
-//   $large-screen: em(860) !default;
-//   $hero-background-top: #7F99BE;
-//   $hero-background-bottom: #20392B;
-//   $hero-color: white;
-//   $gradient-angle: 10deg;
-//   $hero-image: 'http://www.dewallweb.com/wp-content/uploads/2015/11/Sky-Background-318-Amazing-Pictures-Backgrounds.png';
-//
-//   @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
-//   background-color: #324766;
-//   background-position: top;
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   padding-bottom: 3em;
-//
-//   .hero-logo img {
-//     height: 4em;
-//     margin-bottom: 1em;
-//   }
-//
-//   .hero-inner {
-//     @include outer-container;
-//     @include clearfix;
-//     margin: auto;
-//     padding: 3.5em;
-//     text-align: center;
-//
-//     .hero-copy {
-//       text-align: center;
-//
-//       h1 {
-//         color: $hero-color;
-//         font-size: 1.6em;
-//         margin-bottom: 0.5em;
-//
-//         @include media($large-screen) {
-//           font-size: 1.8em;
-//         }
-//       }
-//
-//       p {
-//         color: $hero-color;
-//         line-height: 1.4em;
-//         margin: 0 auto 3em auto;
-//
-//         @include media($large-screen) {
-//           font-size: 1.1em;
-//           max-width: 40%;
-//         }
-//       }
-//     }
-//   }
-// }
-
-
-// Side image
-
-.side-image {
-  $base-line-height: 1.5em !default;
+.grid-items {
   $action-color: #477DCA !default;
-  $dark-gray: #333 !default;
-  $large-screen: em(860) !default;
-  $base-font-color: $dark-gray !default;
-  $side-image-background-top: #B5EBEB;
-  $side-image-background-bottom: #5DAC5D;
-  $side-image-content-background: #F9F9F9;
-  $side-image-border: 1px solid darken(transparentize($side-image-background-bottom, 0.8), 30%);
-
-  background: $side-image-content-background;
-
-  @include media($large-screen) {
-    @include row(table);
-  }
-
-  .images-wrapper {
-    @include background(url('myface.jpg'), linear-gradient($side-image-background-top, $side-image-background-bottom), no-repeat $side-image-background-top scroll);
-    background-color: $side-image-background-top;
-    background-size: cover;
-    border-bottom: $side-image-border;
-    display: block;
-    min-height: 12em;
-    padding: 3em;
-
-    @include media($large-screen) {
-      @include span-columns(4);
-      background-position: bottom;
-      background-size: cover;
-      border-right: $side-image-border;
-    }
-  }
-
-  .side-image-content {
-    @include span-columns(12);
-    padding: 1em 1em 4em 1em;
-
-    @include media($large-screen) {
-      @include span-columns(8);
-      padding: 4em 4em 8em 4em;
-    }
-
-    h1 {
-      margin-bottom: 0.9em;
-    }
-
-    h4 {
-      background: #BBB;
-      color: white;
-      display: inline-block;
-      font-size: 0.75em;
-      margin-bottom: 1.3em;
-      padding: 3px 8px;
-      text-transform: uppercase;
-    }
-
-    p {
-      color: $base-font-color;
-      line-height: $base-line-height;
-      margin-bottom: 3em;
-    }
-  }
-
-  @include reset-display();
-}
-
-
-// Place cards for home page
-
-.cards {
-  @include display(flex);
-  @include flex-wrap(wrap);
-  @include justify-content(space-between);
-}
-
-.card {
-  $base-border-color: gainsboro !default;
-  $base-border-radius: 3px !default;
   $base-background-color: white !default;
-  $base-spacing: 1.5em !default;
-  $action-color: #477DCA !default;
-  $dark-gray: #333 !default;
-  $base-font-color: $dark-gray !default;
-  $card-border-color: $base-border-color;
-  $card-border: 1px solid $card-border-color;
-  $card-background: lighten($card-border-color, 10%);
-  $card-header-background: $card-background;
-  $card-margin: 1em;
-  $card-image-hover-opacity: 0.7;
-  $card-image-hover-color: #F09A87;
+  $medium-screen: em(640) !default;
+  $large-screen: em(860) !default;
+  $grid-items-background: $base-background-color;
+  $grid-item-background: desaturate($action-color, 30%);
+  $grid-item-colors:
+    desaturate($action-color, 30%),
+    #3581A5,
+    #5FBEBE,
+    #98C79A,
+    #A7A891,
+    #BDCC97,
+    #979EA0;
+  $grid-item-border-size: 9px;
+  $grid-item-columns: 4;
+  $grid-item-big-columns: 8;
+  $grid-item-color: white;
+  $grid-item-height: 14em;
 
-  @include flex-basis(15em);
-  @include flex-grow(1);
-  @include transition (all 0.2s ease-in-out);
-  background-color: $card-background;
-  border-radius: $base-border-radius;
-  border: $card-border;
-  box-shadow: 0 2px 4px darken($base-background-color, 10%);
-  cursor: pointer;
-  margin: 0 $card-margin $base-spacing $card-margin;
-  position: relative;
+  @include clearfix;
 
-
-  .card-image {
+  .grid-item {
+    @include transition (all 0.2s ease-in-out);
+    background: $grid-item-background;
+    border-bottom: $grid-item-border-size solid $grid-items-background;
+    border-left: ($grid-item-border-size / 2) solid $grid-items-background;
+    border-right: ($grid-item-border-size / 2) solid $grid-items-background;
+    border-top: 0;
+    cursor: pointer;
+    float: left;
+    height: $grid-item-height;
     overflow: hidden;
-    height: 150px;
-    max-height: 150px;
-    background-color: $card-image-hover-color;
+    outline: none;
+    padding: 2em;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
 
-    img {
-      @include transition (all 0.2s ease-in-out);
-      border-top-left-radius: $base-border-radius;
-      border-top-right-radius: $base-border-radius;
-      width: 100%;
-      opacity: 1;
+    @include media($large-screen) {
+      @include grid-item-columns($grid-item-columns);
+    }
+
+    @for $i from 1 through length($grid-item-colors) { // assign colors from $grid-item-colors list
+      &:nth-child(#{$i}) {
+        $background-from-list: nth($grid-item-colors, $i);
+        background-color: $background-from-list;
+        box-shadow: inset 0px 0px 1px 2px darken($background-from-list, 10%);
+
+        &:focus,
+        &:hover {
+          background-color: darken($background-from-list, 10%);
+          background-repeat: no-repeat;
+          background-position: top;
+          background-size: cover;
+        }
+      }
     }
   }
 
-  .card-header {
-    @include transition (all 0.2s ease-in-out);
-    background-color: $card-header-background;
-    border-bottom: $card-border;
-    border-radius: $base-border-radius $base-border-radius 0 0;
-    font-weight: bold;
-    line-height: 1.5em;
-    padding: ($base-spacing / 3) ($base-spacing / 2);
+  .grid-item img {
+    display: block;
+    height: 3em;
+    margin: 0 auto 1em;
   }
 
-  .card-copy {
-    font-size: 0.9em;
+  .grid-item h1 {
+    color: $grid-item-color;
+    font-size: 1.3em;
+    margin-bottom: 0.4em;
+  }
+
+  .grid-item p {
+    color: transparentize($grid-item-color, 0.3);
     line-height: 1.5em;
-    padding: ($base-spacing / 2) ($base-spacing / 2);
+    margin: auto;
+
+    @include media($medium-screen) {
+      max-width: 70%;
+    }
+  }
+
+  .grid-item-big {
+    @include media($large-screen) {
+      @include grid-item-columns($grid-item-big-columns);
+    }
 
     p {
-      margin: 0 0 ($base-spacing / 2);
+      @include media($medium-screen) {
+        max-width: 60%;
+      }
     }
   }
 
-  &:focus,
-  &:hover {
-    cursor: pointer;
-
-    img {
-      opacity: $card-image-hover-opacity;
-    }
-  }
-
-  &:active {
-    background-color: $card-background;
-
-    .card-header {
-      background-color: $card-background;
-    }
+  .grid-item-image {
+    background: url("Communicant-Logo.jpg");
+    background-color: $grid-item-background;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
