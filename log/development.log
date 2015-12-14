@@ -5636,3 +5636,479 @@ Started GET "/assets/application.self-ec4994e96384d3f444b7c4120b2237d475c6c8d51b
 
 
 Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 15:13:06 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 15:19:35 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.3ms)
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 319 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 360 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 354 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 200 OK in 3849ms (Views: 3840.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-941f55a3897c5dfe08e01cc9654d2a4a73b6af675ea1ec641afe7cf90c82d6fd.css?body=1" for ::1 at 2015-12-14 15:19:40 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 15:19:41 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 15:19:54 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 319 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 360 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 354 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 200 OK in 3645ms (Views: 3644.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-941f55a3897c5dfe08e01cc9654d2a4a73b6af675ea1ec641afe7cf90c82d6fd.css?body=1" for ::1 at 2015-12-14 15:19:58 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 15:19:58 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 15:20:30 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.9ms)
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 319 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 360 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 354 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 200 OK in 3956ms (Views: 3947.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-452b953c48ba1187ba08c22693143dcaf85d3af6d4e709ad99dcc4584d7a4361.css?body=1" for ::1 at 2015-12-14 15:20:34 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 15:20:34 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 15:21:31 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.3ms)
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 319 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 360 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 354 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 200 OK in 3505ms (Views: 3496.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0fee61c5d2215a95b6b07f41367ac943377582e08ebd2f67d6c4fc080def7796.css?body=1" for ::1 at 2015-12-14 15:21:35 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 15:21:36 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 15:21:48 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 319 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 360 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 354 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 200 OK in 1995ms (Views: 1994.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0fee61c5d2215a95b6b07f41367ac943377582e08ebd2f67d6c4fc080def7796.css?body=1" for ::1 at 2015-12-14 15:21:50 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 15:21:51 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 15:22:53 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.3ms)
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 319 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 360 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 354 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 200 OK in 3210ms (Views: 3199.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9543df5b566204169336e05ec91749aced176527e46718e565759765b83f02a6.css?body=1" for ::1 at 2015-12-14 15:22:57 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 15:22:57 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 15:23:27 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 72ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9543df5b566204169336e05ec91749aced176527e46718e565759765b83f02a6.css?body=1" for ::1 at 2015-12-14 15:23:27 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 15:23:27 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 15:29:29 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.4ms)
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 319 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 360 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 354 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 200 OK in 3425ms (Views: 3417.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3bc0e79243fc11d9a6c5b529b0a52e6ba88dc9469746cde6cc88b46e5f971bce.css?body=1" for ::1 at 2015-12-14 15:29:33 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 15:29:34 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 15:30:11 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 164ms (Views: 163.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ec4994e96384d3f444b7c4120b2237d475c6c8d51b6659c55058fd83bf85ede1.css?body=1" for ::1 at 2015-12-14 15:30:12 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 15:30:12 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 15:45:39 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 600ms (Views: 595.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ec4994e96384d3f444b7c4120b2237d475c6c8d51b6659c55058fd83bf85ede1.css?body=1" for ::1 at 2015-12-14 15:45:41 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 15:45:42 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 15:49:08 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (35.3ms)
+Completed 200 OK in 286ms (Views: 271.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ec4994e96384d3f444b7c4120b2237d475c6c8d51b6659c55058fd83bf85ede1.css?body=1" for ::1 at 2015-12-14 15:49:08 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 15:49:08 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 15:49:36 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 89ms (Views: 88.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ec4994e96384d3f444b7c4120b2237d475c6c8d51b6659c55058fd83bf85ede1.css?body=1" for ::1 at 2015-12-14 15:49:36 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 15:49:36 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 15:55:58 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.4ms)
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 319 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 360 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 354 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 200 OK in 4960ms (Views: 4954.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9144c27953459e7272eeb56e02e3b85105400835d6eb38535ac9550d66870986.css?body=1" for ::1 at 2015-12-14 15:56:03 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 15:56:04 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 15:56:21 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 319 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 360 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 354 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 200 OK in 2353ms (Views: 2351.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-51c41bad1c4c10a74647b98fe1e5721b53e9cc04c5107d22e826d0638a1ea019.css?body=1" for ::1 at 2015-12-14 15:56:23 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 15:56:23 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 16:02:10 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (24.3ms)
+Completed 200 OK in 249ms (Views: 241.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-51c41bad1c4c10a74647b98fe1e5721b53e9cc04c5107d22e826d0638a1ea019.css?body=1" for ::1 at 2015-12-14 16:02:11 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 16:02:12 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 16:03:03 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.2ms)
+WARNING: The $display argument will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 39 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_row.scss, in `row'
+         from line 564 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 563 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: Resetting $display will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 64 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_to-deprecate.scss, in `reset-display'
+         from line 614 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 319 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 360 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 354 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 200 OK in 3594ms (Views: 3593.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7e68ba33fbc1c1f78724a8e18ca2141549e2c7a0a1013cecf18745de783b84c8.css?body=1" for ::1 at 2015-12-14 16:03:07 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 16:03:08 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 16:04:46 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (113.1ms)
+WARNING: The $display argument will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 39 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_row.scss, in `row'
+         from line 564 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 563 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: Resetting $display will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 64 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_to-deprecate.scss, in `reset-display'
+         from line 614 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 319 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 360 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 354 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 200 OK in 4593ms (Views: 4581.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-74cc1160748a3d2160027f67498256bd975e6977ffdd68c4f9900d441c23d4e4.css?body=1" for ::1 at 2015-12-14 16:04:51 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 16:04:51 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 16:05:28 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 155ms (Views: 153.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-74cc1160748a3d2160027f67498256bd975e6977ffdd68c4f9900d441c23d4e4.css?body=1" for ::1 at 2015-12-14 16:05:28 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 16:05:29 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 16:06:01 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 163ms (Views: 161.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-74cc1160748a3d2160027f67498256bd975e6977ffdd68c4f9900d441c23d4e4.css?body=1" for ::1 at 2015-12-14 16:06:01 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 16:06:02 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 16:06:11 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 79ms (Views: 77.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-74cc1160748a3d2160027f67498256bd975e6977ffdd68c4f9900d441c23d4e4.css?body=1" for ::1 at 2015-12-14 16:06:12 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 16:06:12 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 16:10:58 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (26.9ms)
+Completed 200 OK in 547ms (Views: 538.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-74cc1160748a3d2160027f67498256bd975e6977ffdd68c4f9900d441c23d4e4.css?body=1" for ::1 at 2015-12-14 16:11:01 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 16:11:02 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 16:12:04 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (34.5ms)
+Completed 200 OK in 191ms (Views: 189.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-74cc1160748a3d2160027f67498256bd975e6977ffdd68c4f9900d441c23d4e4.css?body=1" for ::1 at 2015-12-14 16:12:05 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 16:12:06 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 16:13:53 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (71.7ms)
+Completed 200 OK in 370ms (Views: 362.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-74cc1160748a3d2160027f67498256bd975e6977ffdd68c4f9900d441c23d4e4.css?body=1" for ::1 at 2015-12-14 16:13:54 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 16:13:54 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 16:14:19 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (168.4ms)
+Completed 200 OK in 475ms (Views: 474.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-74cc1160748a3d2160027f67498256bd975e6977ffdd68c4f9900d441c23d4e4.css?body=1" for ::1 at 2015-12-14 16:14:20 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 16:14:20 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 16:15:19 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 781ms (Views: 769.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-74cc1160748a3d2160027f67498256bd975e6977ffdd68c4f9900d441c23d4e4.css?body=1" for ::1 at 2015-12-14 16:15:21 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 16:15:21 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-14 16:17:03 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (68.1ms)
+Completed 200 OK in 330ms (Views: 322.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-74cc1160748a3d2160027f67498256bd975e6977ffdd68c4f9900d441c23d4e4.css?body=1" for ::1 at 2015-12-14 16:17:04 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-14 16:17:05 -0500
