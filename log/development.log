@@ -5018,3 +5018,18 @@ Started GET "/assets/galaxy_trees.png" for ::1 at 2015-12-13 20:32:55 -0500
 
 
 Started GET "/assets/myface.jpg" for ::1 at 2015-12-13 20:32:55 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-13 20:39:03 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 437ms (Views: 429.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0b05669628d635b3cf7b40ec89d455274b9b0f328a8202e32d1b50d01159e475.css?body=1" for ::1 at 2015-12-13 20:39:04 -0500
+
+
+Started GET "/assets/galaxy_trees.png" for ::1 at 2015-12-13 20:39:05 -0500
+
+
+Started GET "/assets/myface.jpg" for ::1 at 2015-12-13 20:39:05 -0500
