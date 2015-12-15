@@ -1,0 +1,22 @@
+#main{
+  @include outer-container();
+  background-color: green;
+}
+
+#top-row{
+  @include fill-parent();
+  @include row(table);
+  background-color: orange;
+}
+
+#next-row{
+  @include span-columns(4);
+  @include pad();
+  background-color: purple;
+}
+#column-2{
+  @include span-columns(8);
+  @include reset-display;
+  @include pad();
+  background-color: red;
+}

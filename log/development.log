@@ -7195,3 +7195,898 @@ Started GET "/assets/application.self-fe8d4f9fca4f4c88457bd505440118cea5030e08c7
 
 
 Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 09:31:00 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-15 12:07:57 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (716.1ms)
+Completed 200 OK in 3743ms (Views: 3637.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fe8d4f9fca4f4c88457bd505440118cea5030e08c7a23f8ccbb1d96b045efb02.css?body=1" for ::1 at 2015-12-15 12:08:04 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 12:08:05 -0500
+
+
+Started GET "/Resume.pdf" for ::1 at 2015-12-15 12:08:06 -0500
+
+ActionController::RoutingError (No route matches [GET] "/Resume.pdf"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (485.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (134.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1755.0ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (3523.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (196.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (581.9ms)
+
+
+Started GET "/homes" for ::1 at 2015-12-15 12:08:49 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 625ms (Views: 624.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fe8d4f9fca4f4c88457bd505440118cea5030e08c7a23f8ccbb1d96b045efb02.css?body=1" for ::1 at 2015-12-15 12:08:51 -0500
+
+
+Started GET "/Resume.pdf" for ::1 at 2015-12-15 12:08:52 -0500
+
+ActionController::RoutingError (No route matches [GET] "/Resume.pdf"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (254.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (45.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (35.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (626.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (49.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (408.2ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (869.0ms)
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 12:08:55 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-15 12:14:20 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 270ms (Views: 251.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fe8d4f9fca4f4c88457bd505440118cea5030e08c7a23f8ccbb1d96b045efb02.css?body=1" for ::1 at 2015-12-15 12:14:21 -0500
+
+
+Started GET "/Resume.pdf" for ::1 at 2015-12-15 12:14:21 -0500
+
+ActionController::RoutingError (No route matches [GET] "/Resume.pdf"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (26.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (338.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (46.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (381.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (53.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (1153.9ms)
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 12:14:24 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-15 12:14:44 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 105ms (Views: 104.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Resume.pdf" for ::1 at 2015-12-15 12:14:44 -0500
+
+ActionController::RoutingError (No route matches [GET] "/Resume.pdf"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (143.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (90.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (261.2ms)
+
+
+Started GET "/assets/application.self-fe8d4f9fca4f4c88457bd505440118cea5030e08c7a23f8ccbb1d96b045efb02.css?body=1" for ::1 at 2015-12-15 12:14:45 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 12:14:45 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-15 12:15:00 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (37.7ms)
+Completed 200 OK in 152ms (Views: 150.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fe8d4f9fca4f4c88457bd505440118cea5030e08c7a23f8ccbb1d96b045efb02.css?body=1" for ::1 at 2015-12-15 12:15:00 -0500
+
+
+Started GET "/Resume.pdf" for ::1 at 2015-12-15 12:15:00 -0500
+
+ActionController::RoutingError (No route matches [GET] "/Resume.pdf"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (48.0ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (22.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (260.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (40.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (2.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (150.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (47.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (25.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (564.0ms)
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 12:15:02 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-15 12:15:07 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 102ms (Views: 101.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fe8d4f9fca4f4c88457bd505440118cea5030e08c7a23f8ccbb1d96b045efb02.css?body=1" for ::1 at 2015-12-15 12:15:08 -0500
+
+
+Started GET "/Resume.pdf" for ::1 at 2015-12-15 12:15:08 -0500
+
+ActionController::RoutingError (No route matches [GET] "/Resume.pdf"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (43.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (260.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (122.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (341.6ms)
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 12:15:09 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-15 12:15:20 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 561ms (Views: 560.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fe8d4f9fca4f4c88457bd505440118cea5030e08c7a23f8ccbb1d96b045efb02.css?body=1" for ::1 at 2015-12-15 12:15:21 -0500
+
+
+Started GET "/app/Resume.pdf" for ::1 at 2015-12-15 12:15:21 -0500
+
+ActionController::RoutingError (No route matches [GET] "/app/Resume.pdf"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (78.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (36.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (48.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (669.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (47.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (54.0ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (668.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (114.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (1650.5ms)
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 12:15:24 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-15 12:15:26 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 331ms (Views: 330.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fe8d4f9fca4f4c88457bd505440118cea5030e08c7a23f8ccbb1d96b045efb02.css?body=1" for ::1 at 2015-12-15 12:15:27 -0500
+
+
+Started GET "/app/Resume.pdf" for ::1 at 2015-12-15 12:15:27 -0500
+
+ActionController::RoutingError (No route matches [GET] "/app/Resume.pdf"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (131.2ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (109.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (207.6ms)
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 12:15:27 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-15 12:20:22 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 550ms (Views: 541.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fe8d4f9fca4f4c88457bd505440118cea5030e08c7a23f8ccbb1d96b045efb02.css?body=1" for ::1 at 2015-12-15 12:20:24 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 12:20:24 -0500
+
+
+Started GET "/Resume.pdf" for ::1 at 2015-12-15 12:20:24 -0500
+
+ActionController::RoutingError (No route matches [GET] "/Resume.pdf"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (57.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (66.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (58.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (407.0ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (15.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (31.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (29.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (15.2ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (306.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (37.2ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (691.3ms)
+
+
+Started GET "/homes" for ::1 at 2015-12-15 12:20:56 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 88ms (Views: 87.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fe8d4f9fca4f4c88457bd505440118cea5030e08c7a23f8ccbb1d96b045efb02.css?body=1" for ::1 at 2015-12-15 12:20:57 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 12:20:57 -0500
+
+
+Started GET "/Resume.pdf" for ::1 at 2015-12-15 12:20:57 -0500
+
+ActionController::RoutingError (No route matches [GET] "/Resume.pdf"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (43.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (217.9ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (20.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (225.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (459.5ms)
+
+
+Started GET "/homes" for ::1 at 2015-12-15 12:21:12 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 96ms (Views: 94.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fe8d4f9fca4f4c88457bd505440118cea5030e08c7a23f8ccbb1d96b045efb02.css?body=1" for ::1 at 2015-12-15 12:21:12 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 12:21:12 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-15 12:21:18 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 128ms (Views: 127.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fe8d4f9fca4f4c88457bd505440118cea5030e08c7a23f8ccbb1d96b045efb02.css?body=1" for ::1 at 2015-12-15 12:21:18 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 12:21:19 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-15 12:21:59 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 132ms (Views: 130.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fe8d4f9fca4f4c88457bd505440118cea5030e08c7a23f8ccbb1d96b045efb02.css?body=1" for ::1 at 2015-12-15 12:21:59 -0500
+
+
+Started GET "/Resume.pdf" for ::1 at 2015-12-15 12:22:00 -0500
+
+ActionController::RoutingError (No route matches [GET] "/Resume.pdf"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/batman2/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.2ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (195.3ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (114.5ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/batman2/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (307.2ms)
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 12:22:01 -0500
+
+
+Started PUT "/console/repl_sessions/121cc92edd78eda55abe0b53e3330e6a" for ::1 at 2015-12-15 12:22:10 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-15 12:49:13 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 227ms (Views: 220.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fe8d4f9fca4f4c88457bd505440118cea5030e08c7a23f8ccbb1d96b045efb02.css?body=1" for ::1 at 2015-12-15 12:49:15 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 12:49:16 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-15 12:51:27 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (1.2ms)
+WARNING: The $display argument will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 39 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_row.scss, in `row'
+         from line 566 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 565 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: Resetting $display will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 64 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_to-deprecate.scss, in `reset-display'
+         from line 616 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 319 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 360 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 354 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 200 OK in 4059ms (Views: 4052.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-502f860048241e56f1bb439e922d04497bcec62bf942626663ed291957ed76dc.css?body=1" for ::1 at 2015-12-15 12:51:32 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 12:51:32 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-15 12:52:13 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 131ms (Views: 130.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-502f860048241e56f1bb439e922d04497bcec62bf942626663ed291957ed76dc.css?body=1" for ::1 at 2015-12-15 12:52:13 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 12:52:13 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-15 12:52:48 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (3.3ms)
+WARNING: The $display argument will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 39 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_row.scss, in `row'
+         from line 564 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 563 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: Resetting $display will be deprecated in future versions in favor of the display(){...} mixin.
+         on line 11 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/settings/_disable-warnings.scss, in `-neat-warn'
+         from line 64 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_to-deprecate.scss, in `reset-display'
+         from line 614 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/homes.scss
+         from line 19 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 319 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/bourbon-4.2.6/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 360 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss, in `@content'
+         from line 62 of /Users/batman2/.rvm/gems/ruby-2.2.1/gems/neat-1.7.2/app/assets/stylesheets/grid/_media.scss, in `media'
+         from line 354 of /Users/batman2/Desktop/Resume/app/assets/stylesheets/application.scss
+
+
+Completed 200 OK in 3266ms (Views: 3256.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9ff434eb40a6dbfe9bd75d3e0a858f00ff65122e2de824145c754d59ee6c4939.css?body=1" for ::1 at 2015-12-15 12:52:52 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 12:52:52 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-15 12:53:01 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 47ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9ff434eb40a6dbfe9bd75d3e0a858f00ff65122e2de824145c754d59ee6c4939.css?body=1" for ::1 at 2015-12-15 12:53:02 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 12:53:02 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-15 12:53:33 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 73ms (Views: 72.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9ff434eb40a6dbfe9bd75d3e0a858f00ff65122e2de824145c754d59ee6c4939.css?body=1" for ::1 at 2015-12-15 12:53:34 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 12:53:34 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-15 12:54:06 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 107ms (Views: 104.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9ff434eb40a6dbfe9bd75d3e0a858f00ff65122e2de824145c754d59ee6c4939.css?body=1" for ::1 at 2015-12-15 12:54:06 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 12:54:06 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-15 12:57:21 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 149ms (Views: 147.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9ff434eb40a6dbfe9bd75d3e0a858f00ff65122e2de824145c754d59ee6c4939.css?body=1" for ::1 at 2015-12-15 12:57:22 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 12:57:22 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-15 12:57:42 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (30.8ms)
+Completed 200 OK in 100ms (Views: 99.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9ff434eb40a6dbfe9bd75d3e0a858f00ff65122e2de824145c754d59ee6c4939.css?body=1" for ::1 at 2015-12-15 12:57:42 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 12:57:43 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-15 12:58:12 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 195ms (Views: 193.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9ff434eb40a6dbfe9bd75d3e0a858f00ff65122e2de824145c754d59ee6c4939.css?body=1" for ::1 at 2015-12-15 12:58:13 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 12:58:13 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-15 13:00:37 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/_modal.html.erb (28.8ms)
+  Rendered homes/index.html.erb within layouts/application (64.7ms)
+Completed 200 OK in 296ms (Views: 294.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9ff434eb40a6dbfe9bd75d3e0a858f00ff65122e2de824145c754d59ee6c4939.css?body=1" for ::1 at 2015-12-15 13:00:38 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 13:00:38 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-15 13:00:48 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/_modal.html.erb (0.0ms)
+  Rendered homes/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 167ms (Views: 166.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9ff434eb40a6dbfe9bd75d3e0a858f00ff65122e2de824145c754d59ee6c4939.css?body=1" for ::1 at 2015-12-15 13:00:49 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 13:00:49 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-15 13:01:06 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/_modal.html.erb (0.1ms)
+  Rendered homes/index.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 87ms (Views: 85.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9ff434eb40a6dbfe9bd75d3e0a858f00ff65122e2de824145c754d59ee6c4939.css?body=1" for ::1 at 2015-12-15 13:01:06 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 13:01:06 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-15 13:01:13 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/_modal.html.erb (0.0ms)
+  Rendered homes/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 43ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9ff434eb40a6dbfe9bd75d3e0a858f00ff65122e2de824145c754d59ee6c4939.css?body=1" for ::1 at 2015-12-15 13:01:13 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 13:01:13 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-15 13:25:36 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/_modal.html.erb (39.4ms)
+  Rendered homes/index.html.erb within layouts/application (42.6ms)
+Completed 200 OK in 405ms (Views: 396.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9ff434eb40a6dbfe9bd75d3e0a858f00ff65122e2de824145c754d59ee6c4939.css?body=1" for ::1 at 2015-12-15 13:25:37 -0500
+
+
+Started GET "/assets/Communicant-Logo.jpg" for ::1 at 2015-12-15 13:25:37 -0500
