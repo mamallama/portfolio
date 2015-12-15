@@ -2,8 +2,8 @@ Rails.application.routes.draw do
   resources :blogs
   resources :homes
 
-  mount PdfjsViewer::Rails::Engine => "/pdfjs", as: 'pdfjs'
-  
+  # mount PdfjsViewer::Rails::Engine => "/pdfjs", as: 'pdfjs'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
