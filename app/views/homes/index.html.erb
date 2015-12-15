@@ -9,10 +9,23 @@
     <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2.png" alt="">
   </a>
   <a href="javascript:void(0)" class="grid-item grid-item-big">
-    <p>
-    <i class="fa fa-file fa-3x"></i>
-    <h1>Resume</h1>
-    </p>
+    <div class="modal">
+      <label for="modal-1">
+        <div class="modal-trigger">
+        <p>
+        <i class="fa fa-file fa-3x"></i>
+        <h1>Resume</h1>
+        </p>
+      </div>
+    </label>
+    <input class="modal-state" id="modal-1" type="checkbox" />
+    <div class="modal-fade-screen">
+      <div class="modal-inner">
+        <div class="modal-close" for="modal-1"></div>
+      </div>
+    </div>
+  </div>
+
   </a>
   <a href="javascript:void(0)" class="grid-item">
     <p>
@@ -39,6 +52,7 @@
     </p>
   </a>
 </div>
+
 
 <!-- side image: contact -->
 <div class="side-image">
