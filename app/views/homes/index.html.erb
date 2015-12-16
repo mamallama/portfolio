@@ -5,9 +5,9 @@
     <i class="fa fa-github-alt fa-3x"></i>
     <h1>Github</h1></p>
   </a>
-  <a href="javascript:void(0)" class="grid-item grid-item-big grid-item-image">
-    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2.png" alt="">
+  <div class="layer"><a href="http://www.communicant-app.herokuapp.com" class="grid-item grid-item-big grid-item-image">
   </a>
+</div>
   <a href="javascript:void(0)" class="grid-item grid-item-big">
     <div class="modal">
       <label for="modal-1">
@@ -21,7 +21,7 @@
     <input class="modal-state" id="modal-1" type="checkbox" />
     <div class="modal-fade-screen">
       <div class="modal-inner">
-        <div class="modal-close" for="modal-1"></div>
+        <label class="modal-close" for="modal-1"></label>
         <%= render 'modal' %>
       </div>
     </div>
@@ -46,7 +46,7 @@
     <h1>Open Source Projects</h1>
     </p>
   </a>
-  <a href="javascript:void(0)" class="grid-item">
+  <a href="#about-volunteer" class="grid-item">
     <p>
     <i class="fa fa-heartbeat fa-3x"></i>
     <h1>Volunteer Information</h1>
@@ -54,6 +54,62 @@
   </a>
 </div>
 
+<!-- parallax window -->
+<div id="js-parallax-window" class="parallax-window">
+  <div class="parallax-static-content">
+    <b>Parallax Window</b>
+  </div>
+  <div id="js-parallax-background" class="parallax-background"></div>
+</div>
+
+<!--  -->
+
+<!-- Volunteer Info -->
+<div id="about-volunteer">
+<h1>Volunteer Experience</h1>
+<p>Community involvement is one of the best ways to increase participation of minorities
+  in tech. Because of this, and in an attempt to have more women of color in our development
+  teams, I am currently involved with the following organizations:
+
+</p>
+</div>
+<ul class="bullets">
+  <li class="bullet">
+    <div class="bullet-icon bullet-icon-1">
+      <i class="fa fa-dot-circle-o fa-2x"></i>
+    </div>
+    <div class="bullet-content">
+      <h2>Code the Dream</h2>
+      <p>"Code the Dream provides a gateway to the tech sector for minority and
+         immigrant youth."</p>
+      </div>
+  </li>
+  <li class="bullet">
+    <div class="bullet-icon bullet-icon-2">
+      <i class="fa fa-dot-circle-o fa-2x"></i>
+    </div>
+    <div class="bullet-content">
+      <h2>Hour of Code</h2>
+      <p>"The Hour of Code is a global movement reaching tens of millions of students
+         in 180+ countries. Anyone, anywhere can organize an Hour of Code event.
+          One-hour tutorials are available in over 40 languages. No experience needed.
+           Ages 4 to 104."</p>
+    </div>
+  </li>
+  <li class="bullet">
+    <div class="bullet-icon bullet-icon-3">
+      <i class="fa fa-dot-circle-o fa-2x"></i>
+    </div>
+    <div class="bullet-content">
+      <h2>Black Girls Code</h2>
+      <p>"That, really, is the Black Girls Code mission:  to introduce programming
+         and technology to a new generation of coders, coders who will become builders
+          of technological innovation and of their own futures." -- Kimberly Bryant, Founder</p>
+    </div>
+  </li>
+</ul>
+
+<!--  -->
 
 <!-- side image: contact -->
 <div class="side-image">
