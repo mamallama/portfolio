@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  resources :blogs
+  root :to => redirect('homes#index')
+  resources :posts
   resources :homes
 
   # mount PdfjsViewer::Rails::Engine => "/pdfjs", as: 'pdfjs'
