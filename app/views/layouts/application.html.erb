@@ -10,16 +10,15 @@
       <nav role="navigation">
         <ul id="js-navigation-menu" class="navigation-menu show">
           <!-- <li class="nav-link"><a href="javascript:void(0)">Products</a></li> -->
-          <li class="nav-link"><a href="javascript:void(0)">About</a></li>
-          <li class="nav-link"><a href="javascript:void(0)">Contact</a></li>
+          <li class="nav-link"><a href="#about">About</a></li>
+          <li class="nav-link"><a href="#contact">Contact</a></li>
           <li class="nav-link more"><a href="javascript:void(0)">More</a>
             <ul class="submenu">
-              <li><a href="javascript:void(0)">Communicant</a></li>
-              <li><a href="javascript:void(0)">Github</a></li>
-              <li class="more"><a href="javascript:void(0)">Blog</a>
+              <li><a href="#communicant">Communicant</a></li>
+              <li class="more"><a href="javascript:void(0)">Community Involvement</a>
                 <ul class="submenu">
-                  <li><a href="javascript:void(0)">Recent</a></li>
-                  <li><a href="javascript:void(0)">Archive</a></li>
+                  <li><a href="http://www.durhamlivingwage.org/">Durham Living Wage</a></li>
+                  <li><a href="www.lgbtqcenterofdurham.org/">LGBTQ Center of Durham</a></li>
                 </ul>
               </li>
               <!-- <li class="more"><a href="javascript:void(0)">Another submenu</a>
@@ -32,7 +31,7 @@
           </li>
         </ul>
       </nav>
-      <div class="navigation-tools">
+      <!-- <div class="navigation-tools">
         <div class="search-bar">
           <form role="search">
             <input type="search" placeholder="Enter Search" />
@@ -41,12 +40,12 @@
             </button>
           </form>
         </div>
-      </div>
+      </div> -->
     </div>
   </header>
 <!-- <div class="header"> -->
     <!-- <h1>Renée Quijano</h1> -->
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' => true %>
     <%= csrf_meta_tags %>
     <!-- <i class="fa fa-github fa-2x"></i>

@@ -12,340 +12,115 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require jquery-smooth-scroll
-//= require turbolinks
 //= require_tree .
 
-header.navigation {
-  $base-border-color: gainsboro !default;
-  $base-border-radius: 3px !default;
-  $action-color: #477DCA !default;
-  $dark-gray: #333 !default;
-  $large-screen: em(860) !default;
-  $navigation-padding: 1em;
-  $navigation-background: $dark-gray;
-  $navigation-color: transparentize(white, 0.3);
-  $navigation-color-hover: white;
-  $navigation-height: 60px;
-  $navigation-nav-button-background: $action-color;
-  $navigation-nav-button-background-hover: lighten($navigation-background, 10%);
-  $navigation-nav-button-border: 1px solid lighten($navigation-nav-button-background, 20%);
-  $navigation-search-background: lighten($navigation-background, 5);
-  $navigation-search-border: 1px solid darken($navigation-background, 5);
-  $navigation-active-link-color: transparentize(white, 0.5);
-  $navigation-submenu-padding: 1em;
-  $navigation-submenu-width: 12em;
-  $horizontal-bar-mode: $large-screen;
-
-  background-color: $navigation-background;
-  border-bottom: 1px solid darken($navigation-background, 10);
-  min-height: $navigation-height;
-  width: 100%;
-  z-index: 999;
-
-  .navigation-wrapper {
-    @include clearfix;
-    @include outer-container;
-    position: relative;
-    z-index: 9999;
+var Filter = (function() {
+  function Filter(element) {
+    this._element = $(element);
+    this._optionsContainer = this._element.find(this.constructor.optionsContainerSelector);
   }
 
-  .logo {
-    float: left;
-    max-height: $navigation-height;
-    padding-left: $navigation-padding;
-    padding-right: 2em;
+  Filter.selector = '.filter';
+  Filter.optionsContainerSelector = '> div';
+  Filter.hideOptionsClass = 'hide-options';
 
-    img {
-      max-height: $navigation-height;
-      padding: 0.8em 0;
-    }
-  }
+  Filter.enhance = function() {
+    var klass = this;
 
-  // Mobile view
+    return $(klass.selector).each(function() {
+      return new klass(this).enhance();
+    });
+  };
 
-  .navigation-menu-button {
-    color: $navigation-color;
-    display: block;
-    float: right;
-    line-height: $navigation-height;
-    margin: 0;
-    padding-right: 1em;
-    text-decoration: none;
-    text-transform: uppercase;
+  Filter.prototype.enhance = function() {
+    this._buildUI();
+    this._bindEvents();
+  };
 
-    @include media ($horizontal-bar-mode) {
-      display: none;
-    }
+  Filter.prototype._buildUI = function() {
+    this._summaryElement = $('<label></label>').
+      addClass('summary').
+      attr('data-role', 'summary').
+      prependTo(this._optionsContainer);
 
-    &:focus,
-    &:hover {
-      color: $navigation-color-hover;
-    }
-  }
+    this._clearSelectionButton = $('<button class=clear></button>').
+      text('Clear').
+      attr('type', 'button').
+      insertAfter(this._summaryElement);
 
-  // Nav menu
+    this._optionsContainer.addClass(this.constructor.hideOptionsClass);
+    this._updateSummary();
+  };
 
-  nav {
-    float: none;
-    min-height: $navigation-height;
-    z-index: 9999999;
+  Filter.prototype._bindEvents = function() {
+    var self = this;
 
-    @include media ($horizontal-bar-mode) {
-      float: left;
-    }
-  }
+    this._summaryElement.click(function() {
+      self._toggleOptions();
+    });
 
-  ul.navigation-menu {
-    clear: both;
-    display: none;
-    margin: 0 auto;
-    overflow: visible;
-    padding: 0;
-    width: 100%;
-    z-index: 9999;
+    this._clearSelectionButton.click(function() {
+      self._clearSelection();
+    });
 
-    &.show {
-      display: block;
-    }
+    this._checkboxes().change(function() {
+      self._updateSummary();
+    });
 
-    @include media ($horizontal-bar-mode) {
-      display: inline;
-      margin: 0;
-      padding: 0;
-    }
-  }
+    $('body').click(function(e) {
+      var inFilter = $(e.target).closest(self.constructor.selector).length > 0;
 
-  // The nav items
-
-  ul li.nav-link {
-    background: $navigation-background;
-    display: block;
-    line-height: $navigation-height;
-    overflow: hidden;
-    padding-right: 0.8em;
-    text-align: right;
-    width: 100%;
-    z-index: 9999;
-
-    @include media ($horizontal-bar-mode) {
-      background: transparent;
-      display: inline;
-      line-height: $navigation-height;
-      text-decoration: none;
-      width: auto;
-    }
-
-    a {
-      color: $navigation-color;
-      display: inline-block;
-      text-decoration: none;
-
-      @include media ($horizontal-bar-mode) {
-        padding-right: 1em;
+      if (!inFilter) {
+        self._allOptionsContainers().addClass(self.constructor.hideOptionsClass);
       }
+    });
+  };
 
-      &:focus,
-      &:hover {
-        color: $navigation-color-hover;
-      }
-    }
-  }
+  Filter.prototype._toggleOptions = function() {
+    this._allOptionsContainers().
+      not(this._optionsContainer).
+      addClass(this.constructor.hideOptionsClass);
 
-  .active-nav-item a {
-    border-bottom: 1px solid $navigation-active-link-color;
-    padding-bottom: 3px;
-  }
+    this._optionsContainer.toggleClass(this.constructor.hideOptionsClass);
+  };
 
-  // Sub menus
+  Filter.prototype._updateSummary = function() {
+    var summary = 'All';
+    var checked = this._checkboxes().filter(':checked');
 
-  li.more.nav-link {
-    padding-right: 0;
-
-    @include media($horizontal-bar-mode) {
-      padding-right: $navigation-submenu-padding;
+    if (checked.length > 0 && checked.length < this._checkboxes().length) {
+      summary = this._labelsFor(checked).join(', ');
     }
 
-    > ul > li:first-child a  {
-      padding-top: 1em;
-    }
+    this._summaryElement.text(summary);
+  };
 
-    a {
-      margin-right: $navigation-submenu-padding;
-    }
+  Filter.prototype._clearSelection = function() {
+    this._checkboxes().each(function() {
+      $(this).prop('checked', false);
+    });
 
-    > a {
-      padding-right: 0.6em;
-    }
+    this._updateSummary();
+  };
 
-    > a:after {
-      @include position(absolute, auto -0.4em auto auto);
-      content: '\25BE';
-      color: $navigation-color;
-    }
-  }
+  Filter.prototype._checkboxes = function() {
+    return this._element.find(':checkbox');
+  };
 
-  li.more {
-    overflow: visible;
-    padding-right: 0;
+  Filter.prototype._labelsFor = function(inputs) {
+    return inputs.map(function() {
+      var id = $(this).attr('id');
+      return $("label[for='" + id + "']").text();
+    }).get();
+  };
 
-    a {
-      padding-right: 0.8em;
-    }
+  Filter.prototype._allOptionsContainers = function() {
+    return $(this.constructor.selector + " " + this.constructor.optionsContainerSelector);
+  };
 
-    > a {
-      padding-right: 1.6em;
-      position: relative;
+  return Filter;
+})();
 
-      @include media($horizontal-bar-mode) {
-        margin-right: $navigation-submenu-padding;
-      }
-
-      &:after {
-        content: '›';
-        font-size: 1.2em;
-        position: absolute;
-        right: $navigation-submenu-padding / 2;
-      }
-    }
-
-    &:focus > .submenu,
-    &:hover > .submenu {
-      display: block;
-    }
-
-    @include media($horizontal-bar-mode) {
-      padding-right: 0.8em;
-      position: relative;
-    }
-  }
-
-  ul.submenu {
-    display: none;
-    padding-left: 0;
-
-    @include media($horizontal-bar-mode) {
-      left: -$navigation-submenu-padding;
-      position: absolute;
-      top: 1.5em;
-    }
-
-    .submenu {
-      @include media($horizontal-bar-mode) {
-        left: $navigation-submenu-width - 0.2em;
-        top: 0;
-      }
-    }
-
-    li {
-      display: block;
-      padding-right: 0;
-
-      @include media($horizontal-bar-mode) {
-        line-height: $navigation-height / 1.3;
-
-        &:first-child > a {
-          border-top-left-radius: $base-border-radius;
-          border-top-right-radius: $base-border-radius;
-        }
-
-        &:last-child > a {
-          border-bottom-left-radius: $base-border-radius;
-          border-bottom-right-radius: $base-border-radius;
-          padding-bottom: 0.7em;
-        }
-      }
-
-      a {
-        background-color: darken($navigation-background, 3%);
-        display: inline-block;
-        text-align: right;
-        width: 100%;
-
-        @include media($horizontal-bar-mode) {
-          background-color: $navigation-background;
-          padding-left: $navigation-submenu-padding;
-          text-align: left;
-          width: $navigation-submenu-width;
-        }
-      }
-    }
-  }
-
-  // Elements on the far right
-
-  .navigation-tools {
-    background: #505050;
-    clear: both;
-    display: block;
-    height: $navigation-height;
-
-    @include media($horizontal-bar-mode) {
-      background: transparent;
-      clear: none;
-      float: right;
-    }
-  }
-
-  // Search bar
-
-  .search-bar {
-    $search-bar-border-color: $base-border-color;
-    $search-bar-border: 1px solid $search-bar-border-color;
-    $search-bar-background: lighten($search-bar-border-color, 10%);
-
-    float: left;
-    padding: 0.85em 0.85em 0.7em 0.6em;
-    width: 60%;
-
-    form {
-      position: relative;
-
-      input[type=search] {
-        @include box-sizing(border-box);
-        background: $navigation-search-background;
-        border-radius: $base-border-radius * 2;
-        border: $navigation-search-border;
-        color: $navigation-color;
-        font-size: 0.9em;
-        font-style: italic;
-        margin: 0;
-        padding: 0.5em 0.8em;
-        width: 100%;
-
-        @include media($horizontal-bar-mode) {
-          width: 100%;
-        }
-      }
-
-      button[type=submit] {
-        background: $navigation-search-background;
-        border: none;
-        bottom: 0.3em;
-        left: auto;
-        outline: none;
-        padding: 0 9px;
-        position: absolute;
-        right: 0.3em;
-        top: 0.3em;
-
-        img {
-          height: 12px;
-          opacity: 0.7;
-          padding: 1px;
-        }
-      }
-    }
-
-    @include media($horizontal-bar-mode) {
-      display: inline-block;
-      position: relative;
-      width: 16em;
-
-      input {
-        @include box-sizing(border-box);
-        display: block;
-      }
-    }
-  }
-}
+$(function() {
+  Filter.enhance();
+});

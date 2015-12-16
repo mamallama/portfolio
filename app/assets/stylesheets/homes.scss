@@ -125,6 +125,16 @@ body {
 
 // BULLET POINTS
 
+#about-volunteer {
+  margin: 1em;
+}
+
+#little {
+  font-family: 'Verdana';
+  font-size: 16px;
+  margin: 1em;
+}
+
 .bullets {
   $base-line-height: 1.5em !default;
   $action-color: #477DCA !default;
@@ -195,176 +205,6 @@ body {
     max-width: 100%;
   }
 }
-
-
-// PARALLAX WINDOW
-
-$parallax-window-height: 30em;
-$parallax-background-height: $parallax-window-height * 2;
-
-.parallax-window {
-  max-height: $parallax-window-height;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  width: 100%;
-}
-
-.parallax-static-content {
-  color: #9A9A8A;
-  padding: 8em 0;
-  position: relative;
-  z-index: 9;
-}
-
-.parallax-background {
-  background: url("galaxy_trees.png") repeat;
-  background-position: top;
-  background-size: cover;
-  background-color: beige;
-  height: $parallax-background-height;
-  left: 0;
-  position: absolute;
-  top: - $parallax-window-height / 3;
-  width: 100%;
-}
-
-// Based on http://codepen.io/skeurentjes/
-
-
-// FOOTER
-
-// Uncomment this for a sticky footer.
-
-// .wrapper-for-content-outside-of-footer {
-//   min-height: 100%;
-//   height: auto !important;
-//   height: 100%;
-//   margin: 0 auto -4em;
-// }
-
-// html, body {
-//  height: 100%;
-// }
-//
-// .wrapper-for-content-outside-of-footer:after {
-//   content: "";
-//   display: block;
-// }
-//
-// .footer-2, .wrapper-for-content-outside-of-footer:after {
-//   height: 17em;
-//
-//   @include media($large-screen) {
-//     height: 4em;
-//   }
-// }
-
-// .footer-2 {
-//   $base-spacing: 1.5em !default;
-//   $action-color: #477DCA !default;
-//   $medium-screen: em(640) !default;
-//   $large-screen: em(860) !default;
-//   $footer-background: desaturate(darken($action-color, 20%), 30%);
-//   $footer-color: white;
-//   $footer-link-color: transparentize($footer-color, 0.6);
-//   $footer-disclaimer-color: transparentize($footer-color, 0.6);
-//
-//   background: $footer-background;
-//   padding: $base-spacing;
-//   width: 100%;
-//   display: inline-block;
-//
-//   .footer-logo {
-//     margin-right: 1em;
-//     margin-bottom: 1em;
-//
-//     @include media($large-screen) {
-//       float: left;
-//       margin-bottom: 0;
-//     }
-//   }
-//
-//   .footer-logo img {
-//     height: 1.6em;
-//   }
-//
-//   ul {
-//     line-height: 1.5em;
-//     margin: 0 0 1em 0;
-//     padding: 0;
-//
-//     @include media($large-screen) {
-//       float: left;
-//       line-height: 1.8em;
-//       margin-left: 1em;
-//       margin-bottom: 0;
-//     }
-//   }
-//
-//   ul li {
-//     list-style: none;
-//     padding-right: 1em;
-//
-//     @include media($large-screen) {
-//       display: inline;
-//       text-align: left;
-//     }
-//   }
-//
-//   ul li a {
-//     color: $footer-link-color;
-//     text-decoration: none;
-//
-//     &:focus,
-//     &:hover {
-//       color: transparentize($footer-color, 0);
-//     }
-//   }
-//
-//   .footer-secondary-links {
-//     @include media($large-screen) {
-//       float: right;
-//     }
-//
-//     li {
-//       font-size: 0.8em;
-//     }
-//
-//     ul.footer-social {
-//       margin: 1em 0 0 0;
-//
-//       @include media($large-screen) {
-//         float: right;
-//         margin-top: 0;
-//       }
-//
-//       li {
-//         font-size: 1em;
-//         float: left;
-//         line-height: 0;
-//         margin: 0;
-//         padding-right: 0.7em;
-//
-//         &:last-child {
-//           padding-right: 0;
-//         }
-//       }
-//
-//       img {
-//         height: 1.6em;
-//         opacity: 0.7;
-//         padding: 1px;
-//
-//         &:focus,
-//         &:hover {
-//           opacity: 1;
-//         }
-//       }
-//     }
-//   }
-// }
-
 
 // MODAL
 
@@ -506,7 +346,7 @@ $parallax-background-height: $parallax-window-height * 2;
     p {
       color: $base-font-color;
       line-height: $base-line-height;
-      font-family: 'Arial';
+      font-family: 'Verdana';
     }
 
     .modal-intro {
@@ -663,19 +503,38 @@ $parallax-background-height: $parallax-window-height * 2;
   }
 
   .images-wrapper {
-    @include background(url('https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png'), linear-gradient($side-image-background-top, $side-image-background-bottom), no-repeat $side-image-background-top scroll);
+    @include background(url('galaxy_trees.png'), linear-gradient($side-image-background-top, $side-image-background-bottom), no-repeat $side-image-background-top scroll);
     background-color: $side-image-background-top;
     background-size: cover;
     border-bottom: $side-image-border;
     display: block;
     min-height: 12em;
     padding: 3em;
-
+    opacity: 0.75;
     @include media($large-screen) {
       @include span-columns(4);
       background-position: bottom;
       background-size: cover;
       border-right: $side-image-border;
+    }
+    h1 {
+      margin-bottom: 0.9em;
+      font-size: 15px;
+      color: white;
+      text-align: left;
+    }
+
+    h2 {
+      margin-bottom: 0.9em;
+      font-size: 15px;
+      color: white;
+      text-align: left;
+      letter-spacing: 12px;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
     }
   }
 
@@ -738,204 +597,114 @@ $parallax-background-height: $parallax-window-height * 2;
   margin: 0;
 }
 
-// SCROLL ON PG
+// gradient image
 
-.scroll-on-page {
-  $base-line-height: 1.5em !default;
-  $base-spacing: 1.5em !default;
-  $action-color: #477DCA !default;
-  $dark-gray: #333 !default;
-  $large-screen: em(860) !default;
-  $base-font-color: $dark-gray !default;
+.image-gradient-dynamic {
+  $image-gradient-color-top: red;
+  $transparency-top: 0.9;
+  $image-gradient-color-bottom: green;
+  $transparency-bottom: 0.6;
+  $vertical-angle: 0deg;
+  $image-gradient-color-left: teal;
+  $transparency-left: 0.8;
+  $image-gradient-color-right: yellow;
+  $transparency-right: 0.8;
+  $horizontal-angle: 90deg;
 
-  display: inline-block;
+  line-height: 0;
+  position: relative;
+  width: 100%;
 
-  a {
-    color: $action-color;
-    text-decoration: none;
+  img {
+   height: auto;
+   left: 0;
+   position: relative;
+   top: 0;
+   width: 100%;
   }
 
-  aside {
-    @include media($large-screen) {
-      @include span-columns(4);
+  .copy {
+    @include border-width(1em 20px null 100%);
+    margin: auto;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    right: 5%;
+
+
+
+    #about-text {
+      // @include span-columns(6);
+      color: white;
+      line-height: 1.5em;
+      font-family: 'Verdana';
+      font-size: 18px;
+      position: left;
+    }
+    h1 {
+      font-family: 'Syncopate', sans-serif;
+      font-size: 14px;
+      text-align: center;
+    }
+    #communicant {
+      @include span-columns(6);
+      color: white;
+      line-height: 1.5em;
+      font-family: 'Verdana';
+      font-size: 18px;
+      position: left;
     }
   }
 
-  .scroll-on-page-link {
-    border-bottom: 1px solid transparentize($action-color, 0.8);
+  .overlay {
+    @include linear-gradient($vertical-angle, transparentize($image-gradient-color-top, $transparency-top),
+      transparentize($image-gradient-color-bottom, $transparency-bottom));
     display: block;
-    margin-right: $base-spacing;
-    outline: none;
-    padding: ($base-spacing / 2) 0;
+    @include position(absolute, 0px 0px 0px 0px);
 
-    &:last-child {
-      margin-bottom: $base-spacing;
-    }
-  }
-
-  article {
-    h4 {
-      margin: 0 0 0.5em 0;
-    }
-
-    p {
-      color: $base-font-color;
-      line-height: $base-line-height;
-    }
-
-    section p:last-of-type {
-      margin-bottom: 2em;
-    }
-
-    @include media($large-screen) {
-      @include span-columns(8);
-    }
-  }
-}
-
-// Based on code by http://codepen.io/xmark/
-
-
-// BLOG POSTS
-
-.vertical-tabs-container {
-  $base-border-color: gainsboro !default;
-  $base-border-radius: 3px !default;
-  $base-background-color: white !default;
-  $base-line-height: 1.5em !default;
-  $base-spacing: 1.5em !default;
-  $action-color: #477DCA !default;
-  $dark-gray: #333 !default;
-  $medium-screen: em(640) !default;
-  $base-font-color: $dark-gray !default;
-  $tab-border-color: $base-border-color;
-  $tab-border: 1px solid $tab-border-color;
-  $tab-border-radius: $base-border-radius;
-  $tab-content-background: lighten($tab-border-color, 10%);
-  $tab-active-color: $tab-content-background;
-  $tab-inactive-color: $base-background-color;
-  $vertical-tabs-height: em(300);
-  $vertical-tab-mode: $medium-screen;
-
-  @include clearfix;
-  border-radius: $tab-border-radius;
-  border: $tab-border;
-  margin-bottom: $base-spacing;
-  overflow: hidden;
-
-  li {
-    list-style: none;
-  }
-
-  a {
-    color: $action-color;
-    text-decoration: none;
-  }
-
-  .vertical-tabs {
-    display: none;
-
-    @include media($vertical-tab-mode) {
-      background-color: $tab-inactive-color;
-      display: inline;
-      float: left;
-      height: $vertical-tabs-height;
-      width: 20%;
-    }
-  }
-
-  .vertical-tab {
-    @include media($vertical-tab-mode) {
-      border-bottom: $tab-border;
+    &:after {
+      @include linear-gradient($horizontal-angle, transparentize($image-gradient-color-left, $transparency-left),
+        transparentize($image-gradient-color-right, $transparency-right));
+      @include position(absolute, 0px 0px 0px 0px);
+      content: '';
       display: block;
-      font-weight: bold;
-      margin-right: -1px;
-      padding: ($base-spacing / 2) ($gutter / 2);
-
-      &.is-active {
-        background-color: $tab-content-background;
-        margin-right: -1px;
-      }
-    }
-  }
-
-  a.vertical-tab-accordion-heading,
-  a.vertical-tab {
-    color: $dark-gray;
-  }
-
-  .vertical-tab:focus {
-    outline: none;
-  }
-
-  .vertical-tab-content-container {
-    display: block;
-    margin: 0 auto;
-
-    & a:focus {
-      outline: none;
-    }
-
-    @include media($vertical-tab-mode) {
-      @include size(80% $vertical-tabs-height);
-      background-color: $tab-content-background;
-      display: inline-block;
-    }
-  }
-
-  .vertical-tab-content {
-    background-color: $tab-content-background;
-    padding: $base-spacing $gutter;
-
-    p {
-      color: $base-font-color;
-      line-height: $base-line-height;
-    }
-
-    @include media($vertical-tab-mode) {
-      border: none;
-      display: none;
-    }
-  }
-
-  .vertical-tab-accordion-heading {
-    background-color: $tab-inactive-color;
-    border-top: $tab-border;
-    cursor: pointer;
-    display: block;
-    font-weight: bold;
-    padding: $base-spacing / 2 $gutter / 2;
-
-    &:focus,
-    &:hover {
-      color: $action-color;
-    }
-
-    &:first-child {
-      border-top: none;
-    }
-
-    &.is-active {
-      background: $tab-active-color;
-      border-bottom: none;
-    }
-
-    @include media($vertical-tab-mode) {
-      display: none;
     }
   }
 }
 
-// Based on code by Jett Miller jettmiller.net
+.communicant-all {
+  font-family: 'Syncopate', sans-serif;
+  color: white;
+  font-size: 14px;
+  text-align: left;
+  background-color: #25092E;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  padding-left: 1em;
+
+  a {
+    color: white;
+  }
+}
+#communicant {
+  color: white;
+  line-height: 1.0em;
+  font-family: 'Verdana';
+  font-size: 16px;
+  position: left;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+  margin: 1em;
+}
 
 // footer-2
 
 .footer {
-  $base-spacing: 1.5em !default;
+  $base-spacing: 0.3em !default;
   $action-color: #477DCA !default;
   $medium-screen: em(640) !default;
   $large-screen: em(860) !default;
-  $footer-background: desaturate(darken($action-color, 20%), 30%);
+  $footer-background: $dark-gray;
   $footer-color: white;
   $footer-link-color: transparentize($footer-color, 0.6);
   $footer-disclaimer-color: transparentize($footer-color, 0.6);

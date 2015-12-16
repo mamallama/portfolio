@@ -5,7 +5,7 @@
     <i class="fa fa-github-alt fa-3x"></i>
     <h1>Github</h1></p>
   </a>
-  <div class="layer"><a href="http://www.communicant-app.herokuapp.com" class="grid-item grid-item-big grid-item-image">
+  <div class="layer"><a href="https://github.com/Communicant/app" class="grid-item grid-item-big grid-item-image">
   </a>
 </div>
   <a href="javascript:void(0)" class="grid-item grid-item-big">
@@ -28,7 +28,7 @@
   </div>
 
   </a>
-  <a href="javascript:void(0)" class="grid-item">
+  <a href="https://reneequeue.wordpress.com/" class="grid-item">
     <p>
     <i class="fa fa-pencil fa-3x"></i>
     <h1>Blog</h1></p>
@@ -40,7 +40,7 @@
     <h1>LinkedIn</h1>
     </p>
   </a>
-  <a href="javascript:void(0)" class="grid-item">
+  <a href="http://codefordurham.com/" class="grid-item">
     <p>
     <i class="fa fa-laptop fa-3x"></i>
     <h1>Open Source Projects</h1>
@@ -54,23 +54,31 @@
   </a>
 </div>
 
-<!-- parallax window -->
-<div id="js-parallax-window" class="parallax-window">
-  <div class="parallax-static-content">
-    <b>Parallax Window</b>
+<!-- gradient image -->
+<div class="image-gradient-dynamic" id="about">
+  <img src="<%= asset_path( 'sunriseinNC.png' ) %>" alt="">
+  <div class="overlay"></div>
+  <div class="copy">
+    <div id="about-text">
+    <p><h1>A little about me</h1></p>
+    Coming from an educational background in sociology and gender studies, and a
+       family background in programming, it was only a matter of time before my passion
+       for both would drive me to pursue an intensive training program, which I
+       found through The Iron Yard's backend engineering, Ruby on Rails class. Currently,
+       I am aiming to find employment as part of a diverse team of developers,
+       with a company that values community involvement, and which places equal stress on the
+       importance of maintaining a good work-life balance.
+    </div>
+
   </div>
-  <div id="js-parallax-background" class="parallax-background"></div>
 </div>
-
-<!--  -->
-
 <!-- Volunteer Info -->
 <div id="about-volunteer">
 <h1>Volunteer Experience</h1>
-<p>Community involvement is one of the best ways to increase participation of minorities
-  in tech. Because of this, and in an attempt to have more women of color in our development
-  teams, I am currently involved with the following organizations:
-
+<p><div id="little">Community involvement is one of the best ways to increase participation
+  and professional development of minorities
+  in tech. Here is a small sampling of the organizations I am currently involved with: <br /><br />
+</div>
 </p>
 </div>
 <ul class="bullets">
@@ -109,11 +117,31 @@
   </li>
 </ul>
 
-<!--  -->
+<!-- About Communicant  -->
+<div class="communicant-all">
+<p><h1>Communicant <a href="https://vimeo.com/146499661"><i class="fa fa-vimeo-square"></i></a></h1>
+</p>
+<p><div id="communicant">Communicant arose out of the need for people in difficult
+  or hostile situations to remain in communication with each other.
+  Originally aimed at divorcing parents,the app has the ability to grow to serve
+  a much larger community of people; whether it be feuding roommates, adult
+  caretakers of elderly parents, etc. and offers a wide
+  variety of feautures in order to aid in effective communication, without the need to
+  share personal contact information, and without the possibility for any
+  party to type or send harassing messages.
+</p></div>
+</div>
 
+</div>
 <!-- side image: contact -->
-<div class="side-image">
-  <div class="images-wrapper"></div>
+<div class="side-image" id="contact">
+  <div class="images-wrapper">
+  <h1>Contact Information:<br /><br /></h1>
+  <h1>Email: <a href="mailto:reneeq25@gmail.com">reneeq25@gmail.com</a><br /><br /></h1>
+  <h2><a href="http://www.twitter.com/renequeue"><i class="fa fa-twitter fa-3x"></i></a>
+  <a href="https://www.linkedin.com/in/renee-quijano-33b5814a"><i class="fa fa-linkedin-square fa-3x"></a></i>
+  <a href="https://www.github.com/mamallama"><i class="fa fa-github fa-3x"></i></a></h2>
+  </div>
     <div class="side-image-content" id="map_canvas">
       <!--
 Add the code below to the bottom of your page, just before the closing </body> tag.
@@ -196,7 +224,7 @@ https://developers.google.com/maps/documentation/javascript/tutorial
 
 <footer class="footer" role="contentinfo">
   <div class="footer-logo">
-    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo image">
+  <h3><i class="fa fa-bicycle fa-2x" alt= "Logo Image"></i></h3>
   </div>
   <div class="footer-links">
       <h3>Renée Quijano</h3><br />

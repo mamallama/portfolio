@@ -19,16 +19,6 @@
  @import url(https://fonts.googleapis.com/css?family=Syncopate:400|Walter+Turncoat|Kalam:400,700);
 
 
-
- // header {
- //   background-color: #40526B;
- //   color: #FFF;
- //   padding: 8px 25px;
- //   font-family: 'Syncopate', sans-serif;
- //   font-size: 15px;
- //  //  font-weight: bold;
- //   @include linear-gradient(#1B2429, #202B30);
- // }
 // HEADER
 
 header.navigation {
@@ -360,6 +350,64 @@ header.navigation {
       input {
         @include box-sizing(border-box);
         display: block;
+      }
+    }
+  }
+}
+
+// Hero unit
+
+.hero {
+  $base-border-radius: 3px !default;
+  $action-color: #477DCA !default;
+  $large-screen: em(860) !default;
+  $hero-background-top: #7F99BE;
+  $hero-background-bottom: #20392B;
+  $hero-color: white;
+  $gradient-angle: 10deg;
+  $hero-image: 'sunriseinNC.png';
+
+  @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
+  background-color: #324766;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 3em;
+
+  .hero-logo img {
+    height: 4em;
+    margin-bottom: 1em;
+  }
+
+  .hero-inner {
+    @include outer-container;
+    @include clearfix;
+    margin: auto;
+    padding: 3.5em;
+    text-align: center;
+
+    .hero-copy {
+      text-align: center;
+
+      h1 {
+        color: $hero-color;
+        font-size: 1.6em;
+        margin-bottom: 0.5em;
+
+        @include media($large-screen) {
+          font-size: 1.8em;
+        }
+      }
+
+      p {
+        color: $hero-color;
+        line-height: 1.4em;
+        margin: 0 auto 3em auto;
+
+        @include media($large-screen) {
+          font-size: 1.1em;
+          max-width: 40%;
+        }
       }
     }
   }
