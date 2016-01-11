@@ -17979,3 +17979,95 @@ Started GET "/assets/Communicant-white.png" for ::1 at 2015-12-16 14:02:55 -0500
 
 
 Started GET "/assets/galaxy_trees.png" for ::1 at 2015-12-16 14:02:55 -0500
+
+
+Started GET "/" for ::1 at 2015-12-18 17:24:18 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-18 17:24:25 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/_modal.html.erb (0.5ms)
+  Rendered homes/index.html.erb within layouts/application (1444.4ms)
+Completed 200 OK in 10572ms (Views: 10436.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Communicant-white.png" for ::1 at 2015-12-18 17:24:44 -0500
+
+
+Started GET "/assets/galaxy_trees.png" for ::1 at 2015-12-18 17:24:44 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-23 19:02:05 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/_modal.html.erb (0.3ms)
+  Rendered homes/index.html.erb within layouts/application (255.2ms)
+Completed 200 OK in 5761ms (Views: 5617.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-830e53c5234fee3003fa23b716a693a61cee94aa737b471f8b05691f39a415c8.css?body=1" for ::1 at 2015-12-23 19:02:18 -0500
+
+
+Started GET "/assets/sunriseinNC-2aaa085f495a154aae11c3b4611c6187265b08640111469cfc4e8de63b721071.png" for ::1 at 2015-12-23 19:02:19 -0500
+
+
+Started GET "/assets/Communicant-white.png" for ::1 at 2015-12-23 19:02:25 -0500
+
+
+Started GET "/assets/galaxy_trees.png" for ::1 at 2015-12-23 19:02:25 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-23 19:02:28 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/_modal.html.erb (0.1ms)
+  Rendered homes/index.html.erb within layouts/application (78.6ms)
+Completed 200 OK in 962ms (Views: 961.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-830e53c5234fee3003fa23b716a693a61cee94aa737b471f8b05691f39a415c8.css?body=1" for ::1 at 2015-12-23 19:02:29 -0500
+
+
+Started GET "/assets/sunriseinNC-2aaa085f495a154aae11c3b4611c6187265b08640111469cfc4e8de63b721071.png" for ::1 at 2015-12-23 19:02:30 -0500
+
+
+Started GET "/assets/Communicant-white.png" for ::1 at 2015-12-23 19:02:30 -0500
+
+
+Started GET "/assets/galaxy_trees.png" for ::1 at 2015-12-23 19:02:30 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-23 19:03:09 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/_modal.html.erb (0.4ms)
+  Rendered homes/index.html.erb within layouts/application (1553.4ms)
+Completed 200 OK in 8421ms (Views: 8417.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-830e53c5234fee3003fa23b716a693a61cee94aa737b471f8b05691f39a415c8.css?body=1" for ::1 at 2015-12-23 19:03:29 -0500
+
+
+Started GET "/assets/sunriseinNC-2aaa085f495a154aae11c3b4611c6187265b08640111469cfc4e8de63b721071.png" for ::1 at 2015-12-23 19:03:40 -0500
+
+
+Started GET "/assets/Communicant-white.png" for ::1 at 2015-12-23 19:03:55 -0500
+
+
+Started GET "/assets/galaxy_trees.png" for ::1 at 2015-12-23 19:03:57 -0500
+
+
+Started GET "/homes" for ::1 at 2015-12-23 19:13:57 -0500
+Processing by HomesController#index as HTML
+  Rendered homes/_modal.html.erb (0.2ms)
+  Rendered homes/index.html.erb within layouts/application (2051.4ms)
+Completed 200 OK in 5981ms (Views: 5976.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-830e53c5234fee3003fa23b716a693a61cee94aa737b471f8b05691f39a415c8.css?body=1" for ::1 at 2015-12-23 19:14:08 -0500
+
+
+Started GET "/assets/sunriseinNC-2aaa085f495a154aae11c3b4611c6187265b08640111469cfc4e8de63b721071.png" for ::1 at 2015-12-23 19:14:09 -0500
+
+
+Started GET "/assets/galaxy_trees.png" for ::1 at 2015-12-23 19:14:10 -0500
+
+
+Started GET "/assets/Communicant-white.png" for ::1 at 2015-12-23 19:14:10 -0500
