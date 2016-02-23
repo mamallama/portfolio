@@ -115,6 +115,7 @@ body {
   .grid-item-image {
     background: url("Communicant-white.png");
     background-color: $grid-item-background;
+    width: 100%;
     // display: block;
     background-position: center;
     background-repeat: none;
